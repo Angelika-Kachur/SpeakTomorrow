@@ -1,22 +1,14 @@
 import React, { Component } from 'react';
 
-class Socials extends Component {
+class groupsPage extends Component {
 
     render() {
         return (
-            <ul className="socials">
-                <li>
-                    Twitter
-                </li>
-                <li>
-                    Instagram
-                </li>
-                <li>
-                    Facebook
-                </li>
-            </ul>
+            <div className="page-content">
+                GROUPS
+            </div>
         );
     };
 };
   
-export default Socials;
+export default groupsPage;

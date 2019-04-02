@@ -1,22 +1,32 @@
 import React, { Component } from 'react';
+import Article from '../components/Article';
+import articles from '../components/blogData.js';
 
-class Socials extends Component {
+class blogPage extends Component {
+
+    state = {
+        selectedPairs: []
+      }
+    
+      handleCheckbox = product => event => {
+        // const {  } = event.target;
+    
+        this.setState(({ selectedPairs }) => {
+          return {
+            selectedPairs: ['prd-avon']
+          }
+        })
+      }
 
     render() {
         return (
-            <ul className="socials">
-                <li>
-                    Twitter
-                </li>
-                <li>
-                    Instagram
-                </li>
-                <li>
-                    Facebook
-                </li>
-            </ul>
+            <div className="page-content">
+                BLOG
+
+                <Article article={articles[0]} foo="bar" flag/> 
+            </div>
         );
     };
 };
   
-export default Socials;
+export default blogPage;

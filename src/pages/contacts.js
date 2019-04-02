@@ -1,22 +1,35 @@
 import React, { Component } from 'react';
+import Map from '../components/Map';
+import TitleSection from '../components/TitleSection';
+import Socials from '../components/Socials';
 
-class Socials extends Component {
+var name = 'Toma';
+// var pageTitle = 'Contacts';
+
+class contactsPage extends Component {
 
     render() {
         return (
-            <ul className="socials">
-                <li>
-                    Twitter
-                </li>
-                <li>
-                    Instagram
-                </li>
-                <li>
-                    Facebook
-                </li>
-            </ul>
+            <div className="page-content">
+                CONTACTS
+
+                 {/* <TitleSection pageTitle={pageTitle}/> */}
+                <TitleSection />
+
+                <section className="contacts-section">
+                    <div className="holder">
+                        <h1>Contacts</h1>
+                        <p>Hello {name}</p>
+                        <p>With us you can study English from everywhere</p>
+                        <p>С нами ты можешь выучить английской с любого уголка Земли</p>
+                        <Socials />
+                        <Map />
+                    </div>
+                </section> 
+                
+            </div>
         );
     };
 };
   
-export default Socials;
+export default contactsPage;
