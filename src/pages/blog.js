@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import Article from '../components/Article';
 import articles from '../components/blogData.js';
+import TitleSection from '../components/TitleSection';
+
+var pageTitle = 'Blog';
 
 class blogPage extends Component {
 
@@ -21,7 +24,7 @@ class blogPage extends Component {
     render() {
         return (
             <div className="page-content">
-                BLOG
+                <TitleSection title={pageTitle}/>
 
                 <Article article={articles[0]} foo="bar" flag/> 
             </div>

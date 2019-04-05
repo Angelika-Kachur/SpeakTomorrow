@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
+import TitleSection from '../components/TitleSection';
+
+var pageTitle = 'About';
 
 class about extends Component {
 
     render() {
         return (
             <div className="page-content">
-                ABOUT
+                <TitleSection title={pageTitle}/>
 
                 <section className="about">
                     <p className="text-primary">About me</p>

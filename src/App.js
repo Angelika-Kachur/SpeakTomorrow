@@ -3,10 +3,12 @@ import './App.css';
 import Header from './components/Header'
 import Footer from './components/Footer'
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Home from "./pages/home";
-import Blog from "./pages/blog";
-import Contacts from "./pages/contacts";
-import About from "./pages/about";
+import home from "./pages/home";
+import blog from "./pages/blog";
+import contacts from "./pages/contacts";
+import about from "./pages/about";
+import addArticle from "./pages/addArticle";
+import firebase from 'firebase';
 
 class App extends Component {
 
@@ -36,10 +38,11 @@ class App extends Component {
         <Router>
           <Header />
           <Switch>
-            <Route exact path="/" component={Home} />
-            <Route path="/about" component={About} />
-            <Route path="/blog" component={Blog} />
-            <Route path="/contacts" component={Contacts} />
+            <Route exact path="/" component={home} />
+            <Route path="/about" component={about} />
+            <Route path="/blog" component={blog} />
+            <Route path="/contacts" component={contacts} />
+            <Route path="/editor" component={addArticle} />
           </Switch>
         </Router> 
 

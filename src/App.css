@@ -13,6 +13,7 @@ img {
 
 .holder {
   max-width: 1200px;
+  margin: 0 auto;
   padding: 0 20px;
 }
 
@@ -21,15 +22,15 @@ img {
   top: 0;
   left: 0;
   right: 0;
+  background-color: #282c34;
+  color: white;
+  font-size: calc(10px + 2vmin);
 }
 
 .header .holder {
-  background-color: #282c34;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 .logo-image {
@@ -49,7 +50,6 @@ img {
 }
 
 .page-content {
-  height: 70vh;
   border: solid 1px yellow;
 }
 

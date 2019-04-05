@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
+import TitleSection from '../components/TitleSection';
+
+var pageTitle = 'Groups';
 
 class groupsPage extends Component {
 
     render() {
         return (
             <div className="page-content">
-                GROUPS
+                <TitleSection title={pageTitle}/>
             </div>
         );
     };
