@@ -9,6 +9,10 @@ class homePage extends Component {
         return (
             <div className="page-content">
                 <TitleSection title={pageTitle}/>
+
+                <section className="">
+
+                </section>
             </div>
         );
     };

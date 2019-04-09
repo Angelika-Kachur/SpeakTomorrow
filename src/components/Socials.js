@@ -7,6 +7,7 @@ class Socials extends Component {
             <ul className="socials">
                 <li>
                     Twitter
+                
                 </li>
                 <li>
                     Instagram
