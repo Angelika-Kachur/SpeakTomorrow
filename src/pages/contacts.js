@@ -16,13 +16,20 @@ class contactsPage extends Component {
 
                 <section className="contacts-section">
                     <div className="holder">
-                        <p>Hello {name}</p>
-                        <p>With us you can study English from everywhere</p>
-                        <p>С нами ты можешь выучить английской с любого уголка Земли</p>
-                        <Socials />
-                        <Map />
+                        <form action="#">
+                            <input type="text" />
+                        </form>
+                        <div className="text">
+                            <p>Hello {name}</p>
+                            <p>With us you can study English from everywhere</p>
+                            <p>С нами ты можешь выучить английской с любого уголка Земли</p>
+                        </div>
                     </div>
+
+                    
                 </section> 
+
+                <Map />
                 
             </div>
         );

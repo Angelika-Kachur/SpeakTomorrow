@@ -1,12 +1,16 @@
 import React from 'react';
+import imageBlog1 from "../images/blog-image-1.png";
 
 function Article(props) {
     const {article} = props;
     console.log(props);
     return (
         <div className="article">
-            <h1 className="title">{article.title}</h1>
-            <div className="text">{article.text}</div>
+            <h1 className="title">{article.previewTitle}</h1>
+            <div className="image">
+                <img src={imageBlog1} alt="" />
+            </div>
+            <div className="text">{article.previewText}</div>
         </div>
     );
 }

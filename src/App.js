@@ -1,10 +1,13 @@
 import React, { Component } from 'react';
 import './App.css';
 import Header from './components/Header'
+// import Sticky from './components/Header'
+// import ExampleStuckContent from './components/ExampleStuckContent.js';
 import Footer from './components/Footer'
 import home from "./pages/home";
 import about from "./pages/about";
 import groups from "./pages/groups";
+import reviews from "./pages/reviews";
 import blog from "./pages/blog";
 import contacts from "./pages/contacts";
 import addArticle from "./pages/addArticle";
@@ -36,11 +39,20 @@ class App extends Component {
       <div className="App">
 
         <Router>
+            {/* <ExampleStuckContent>
+                  <p>
+                    This is a stickable component.
+                It will get a prop called "modifiers" containing an array of strings like "stuck-top" when it's been scrolled out of view.
+              </p>
+            </ExampleStuckContent> */}
+
           <Header />
+          {/* <Sticky /> */}
           <Switch>
             <Route exact path="/" component={home} />
             <Route path="/about" component={about} />
             <Route path="/groups" component={groups} />
+            <Route path="/reviews" component={reviews} />
             <Route path="/blog" component={blog} />
             <Route path="/contacts" component={contacts} />
             <Route path="/editor" component={addArticle} />

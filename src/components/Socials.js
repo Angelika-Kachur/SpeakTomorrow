@@ -6,14 +6,13 @@ class Socials extends Component {
         return (
             <ul className="socials">
                 <li>
-                    Twitter
-                
+                    <a href="#" className="icon-social-instagram"></a>
                 </li>
                 <li>
-                    Instagram
+                    <a href="#" className="icon-social-facebook"></a>
                 </li>
                 <li>
-                    Facebook
+                    <a href="#" className="icon-social-twitter"></a>
                 </li>
             </ul>
         );

@@ -26,7 +26,17 @@ class blogPage extends Component {
             <div className="page-content">
                 <TitleSection title={pageTitle}/>
 
-                <Article article={articles[0]} foo="bar" flag/> 
+                <section className="blog-section">
+                  <div className="holder">
+                    <div class="blog">
+                      <div class="short-article-box">
+                        <Article article={articles[0]} foo="bar" flag/> 
+                        <Article article={articles[1]} foo="bar" flag/> 
+                        <Article article={articles[2]} foo="bar" flag/> 
+                      </div>
+                    </div>
+                  </div>
+                </section>
             </div>
         );
     };

@@ -16,6 +16,9 @@ function Navigation() {
             <Link to="/groups">Groups</Link>
           </li>
           <li>
+            <Link to="/reviews">Reviews</Link>
+          </li>
+          <li>
             <Link to="/blog">Blog</Link>
           </li>
           <li>

@@ -12,14 +12,19 @@ class addArticle extends Component {
         return (
             <div className="page-content">
                 <TitleSection title={pageTitle}/>
-
-                <Editor
-                    // editorState={editorState}
-                    toolbarClassName="toolbarClassName"
-                    wrapperClassName="wrapperClassName"
-                    editorClassName="editorClassName"
-                    onEditorStateChange={this.onEditorStateChange}
-                />
+                <section className="add-article-section">
+                    <div className="holder">
+                        <div className="add-article">
+                            <Editor
+                                // editorState={editorState}
+                                toolbarClassName="toolbarClassName"
+                                wrapperClassName="wrapperClassName"
+                                editorClassName="editorClassName"
+                                onEditorStateChange={this.onEditorStateChange}
+                            />
+                        </div>
+                    </div>
+                </section>
             </div>
         );
     };
