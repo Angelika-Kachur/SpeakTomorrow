@@ -16,14 +16,37 @@ class contactsPage extends Component {
 
                 <section className="contacts-section">
                     <div className="holder">
-                        <form action="#">
-                            <input type="text" />
-                        </form>
+
                         <div className="text">
-                            <p>Hello {name}</p>
-                            <p>With us you can study English from everywhere</p>
+                            <h2 className="title">У вас есть вопрос?</h2>
+                            {/* <p>Hello {name}</p>
+                            <p>With us you can study English from everywhere</p> */}
+                            <p>С нами ты можешь выучить английской с любого уголка Земли</p>
                             <p>С нами ты можешь выучить английской с любого уголка Земли</p>
                         </div>
+
+                        <form className="contacts-form" action="#">
+                            <label>
+                                Name:
+                                <input type="text" name="name" />
+                            </label>
+                            <label>
+                                Phone:
+                                <input type="tel" name="name" />
+                            </label>
+                            <label>
+                                Email:
+                                <input type="email" name="name" />
+                            </label>
+                            <label>
+                                Message:
+                                <textarea>
+                                Hello there, this is some text in a text area
+                                </textarea>
+                            </label>
+
+                            <input type="submit" value="Submit" />
+                        </form>
                     </div>
 
                     

@@ -42,7 +42,7 @@ class groupsPage extends Component {
                                     <div className="group-image">
                                         <img src={imageGroup1} alt=""/>
                                     </div>
-                                    <h2 className="group-title">Начинающий</h2>
+                                    <h2 className="group-title">Средний</h2>
                                     <div className="group-text">
                                         <p>Группая прекрасно подойдёт для тех, кто только начинает свой путь в изучении английского</p>
 
@@ -64,7 +64,7 @@ class groupsPage extends Component {
                                     <div className="group-image">
                                         <img src={imageGroup1} alt=""/>
                                     </div>
-                                    <h2 className="group-title">Начинающий</h2>
+                                    <h2 className="group-title">Опытный</h2>
                                     <div className="group-text">
                                         <p>Группая прекрасно подойдёт для тех, кто только начинает свой путь в изучении английского</p>
 
@@ -86,7 +86,7 @@ class groupsPage extends Component {
                                     <div className="group-image">
                                         <img src={imageGroup1} alt=""/>
                                     </div>
-                                    <h2 className="group-title">Начинающий</h2>
+                                    <h2 className="group-title">Разговорный</h2>
                                     <div className="group-text">
                                         <p>Группая прекрасно подойдёт для тех, кто только начинает свой путь в изучении английского</p>
 

@@ -1,5 +1,7 @@
+/* Fonts  */
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
+/* Icomoon Fonts  */
 @font-face {
   font-family: 'icomoon';
   src:  url('./fonts/icomoon/icomoon.eot?cunv4v');
@@ -10,7 +12,6 @@
   font-weight: normal;
   font-style: normal;
 }
-
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
@@ -20,12 +21,10 @@
   font-variant: normal;
   text-transform: none;
   line-height: 1;
-
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 .icon-arrow_left:before {
   content: "\e900";
 }
@@ -81,13 +80,14 @@
   content: "\ea82";
 }
 
-
+/* App  */
 .App {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
   padding: 70px 0 0;
 }
+
 /* General  */
 body {
   font-family: 'Roboto', sans-serif;
@@ -115,7 +115,6 @@ a:hover {
 .App-link {
   color: #61dafb;
 }
-
 
 /* Holder  */
 .holder {
@@ -203,15 +202,11 @@ a:hover {
 /* Page Content  */
 .page-content {
   flex: 1;
-  /* border: solid 1px yellow; */
-
 }
 
 /* Title Section  */
 .title-section {
   padding: 70px 0;
-  /* background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%); */
-  /* background-image: linear-gradient(to bottom, #3ab5b0 0%, #3d99be 31%, #56317a 100%); */
   background: linear-gradient(-225deg, #FF3CAC 0%, #562B7C 52%, #2B86C5 100%);
   opacity: .95;
 }
@@ -246,7 +241,6 @@ a:hover {
 
 .socials li a:hover {
   transform: scale(1.1);
-  /* box-shadow: 0px 0px 150px #000000; */
   z-index: 2;
   transform: scale(1.5);
 }
@@ -325,6 +319,40 @@ a:hover {
   padding: 50px 0;
 }
 
+.contacts-section .text {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contacts-form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.contacts-form label {
+  display: block;
+}
+
+.contacts-form input,
+.contacts-form textarea {
+  background-color: #fff;
+  width: 100%;
+  height: 30px;
+  margin-bottom: 20px;
+  padding: 0 8px;
+  border: 1px solid #4371b2;
+  border-radius: 5px;
+  transition: all ease .3s;
+  color: #2b2b2b;
+}
+
+.contacts-form input:focus,
+.contacts-form textarea:focus {
+  border-color: #d142a4;
+  outline: none;
+}
+
 /* Groups */
 .groups-section {
   padding: 50px 0;
@@ -333,11 +361,12 @@ a:hover {
 .groups {
   display: flex;
   flex-wrap: wrap;
+  margin: 0 -10px;
 }
 
 .group {
   width: 25%;
-  padding: 0 20px;
+  padding: 0 10px;
 }
 
 .group .tale {
@@ -350,6 +379,7 @@ a:hover {
 
 .group-image {
   height: 200px;
+  text-align: center;
 }
 
 .group-title {
@@ -398,9 +428,49 @@ a:hover {
   width: 100%;
 }
 
+/* Reviews */
+.reviews-section {
+  padding: 50px 0;
+}
+
+.reviews {
+
+}
+
+.review {
+  margin: 0 0 50px;
+}
+
+.review .tale {
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 700px;
+  background: white;
+  border: solid 1px #a18cd1;
+}
+
+.review-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  overflow: hidden;
+}
+
+.review-position {
+  font-size: 25px;
+  margin: 0 0 15px;
+}
+
+.review-text {
+  max-height: 100px;
+  overflow: hidden;
+}
+
+/* Buttons */
 .btn {
-  background: #fecfef;
-  border: solid 1px #fecfef;
+  color: #fff;
+  background: #e339a4;
+  border: solid 1px #e339a4;
   transition: all ease .3s;
 }
 
@@ -428,11 +498,12 @@ a:hover {
   /* Groups  */
   .groups {
     flex-wrap: wrap;
+    margin: 0 -20px;
   }
 
   .group {
     width: 50%;
-    padding: 20px 0;
+    padding: 20px 20px;
   }
 
   .group-image {
@@ -454,10 +525,12 @@ a:hover {
   /* Groups  */
   .groups {
     flex-direction: column;
+    margin: 0;
   }
 
   .group {
     width: 100%;
+    margin: 0 0 20px;
   }
 
   .group-image {
