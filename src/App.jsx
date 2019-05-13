@@ -1,16 +1,17 @@
 import React, { Component } from "react";
 import "./App.css";
-import Header from "./components/Header";
+import Header from "./components/Header.jsx";
 // import Sticky from './components/Header'
 // import ExampleStuckContent from './components/ExampleStuckContent.js';
-import Footer from "./components/Footer";
-import home from "./pages/home";
-import about from "./pages/about";
-import groups from "./pages/groups";
-import reviews from "./pages/reviews";
-import blog from "./pages/blog";
-import contacts from "./pages/contacts";
-import addArticle from "./pages/addArticle";
+import Footer from "./components/Footer.jsx";
+import home from "./pages/home.jsx";
+import about from "./pages/about.jsx";
+import groups from "./pages/groups.jsx";
+import reviews from "./pages/reviews.jsx";
+import blog from "./pages/blog.jsx";
+import contacts from "./pages/contacts.jsx";
+import addArticle from "./pages/addArticle.jsx";
+import howItWorks from "./pages/howItWorks";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 // import firebase from "./firebase";
 
@@ -48,6 +49,7 @@ class App extends Component {
           <Switch>
             <Route exact path="/" component={home} />{" "}
             <Route path="/about" component={about} />{" "}
+            <Route path="/howItWorks" component={howItWorks} />{" "}
             <Route path="/groups" component={groups} />{" "}
             <Route path="/reviews" component={reviews} />{" "}
             <Route path="/blog" component={blog} />{" "}
