@@ -1,54 +1,36 @@
 import React, { Component } from "react";
 import "./App.css";
-import Header from "./components/Header.jsx";
-// import Sticky from './components/Header'
-// import ExampleStuckContent from './components/ExampleStuckContent.js';
-import Footer from "./components/Footer.jsx";
-import home from "./pages/home.jsx";
-import about from "./pages/about.jsx";
-import groups from "./pages/groups.jsx";
-import reviews from "./pages/reviews.jsx";
-import blog from "./pages/blog.jsx";
-import contacts from "./pages/contacts.jsx";
-import addArticle from "./pages/addArticle.jsx";
-import howItWorks from "./pages/howItWorks";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import home from "./sections/home";
+import blog from "./sections/blog";
+import about from "./sections/about";
+import groups from "./sections/groups";
+import reviews from "./sections/reviews";
+import contacts from "./sections/contacts";
+import addArticle from "./sections/addArticle";
+import howItWorks from "./sections/howItWorks";
+import aboutSchool from "./sections/aboutSchool";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import AOS from "aos";
+import "aos/dist/aos.css";
 // import firebase from "./firebase";
 
 class App extends Component {
-  // constructor(props) {
-  //   super(props);
-
-  //   this.state = {
-  //     counter: 0
-  //   };
-  // }
-
-  // increase() {
-  //   this.setState({ counter: this.state.counter + 1 });
-  // }
-
-  // decrease() {
-  //   if (this.state.counter > 0) {
-  //     this.setState({ counter: this.state.counter - 1 });
-  //   }
-  // }
-
+  componentDidMount() {
+    AOS.init({
+      duration: 2000
+    });
+  }
   render() {
     return (
       <div className="App">
         <Router>
-          {" "}
-          {/* <ExampleStuckContent>
-                          <p>
-                            This is a stickable component.
-                        It will get a prop called "modifiers" containing an array of strings like "stuck-top" when it's been scrolled out of view.
-                      </p>
-                    </ExampleStuckContent> */}
-          <Header /> {/* <Sticky /> */}{" "}
+          <Header />
           <Switch>
             <Route exact path="/" component={home} />{" "}
             <Route path="/about" component={about} />{" "}
+            <Route path="/aboutSchool" component={aboutSchool} />{" "}
             <Route path="/howItWorks" component={howItWorks} />{" "}
             <Route path="/groups" component={groups} />{" "}
             <Route path="/reviews" component={reviews} />{" "}
@@ -57,10 +39,6 @@ class App extends Component {
             <Route path="/editor" component={addArticle} />{" "}
           </Switch>{" "}
         </Router>
-
-        {/* <button onClick={() => this.increase()}>+</button>
-                <button onClick={() => this.decrease()}>-</button>
-                {this.state.counter} */}
 
         <Footer />
       </div>

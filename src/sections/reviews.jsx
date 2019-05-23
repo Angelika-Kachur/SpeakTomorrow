@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import TitleSection from "../components/TitleSection.jsx";
-
 import imageGroup1 from "../images/skype-student-image.png";
 
 var pageTitle = "Вот что говорят наши студенты:";
@@ -8,10 +7,10 @@ var pageTitle = "Вот что говорят наши студенты:";
 class reviewsPage extends Component {
   render() {
     return (
-      <div className="page-content">
+      <div className="page-content" data-aos="fade-left">
         <TitleSection title={pageTitle} />
 
-        <section className="reviews-section">
+        <section id="reviews" className="reviews-section">
           <div className="holder">
             <div className="reviews">
               <div className="review">

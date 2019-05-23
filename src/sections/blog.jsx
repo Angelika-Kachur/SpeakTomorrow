@@ -22,21 +22,18 @@ class blogPage extends Component {
 
   render() {
     return (
-      <div className="page-content">
+      <section className="blog-section">
         <TitleSection title={pageTitle} />
-
-        <section className="blog-section">
-          <div className="holder">
-            <div class="blog">
-              <div class="short-article-box">
-                <Article article={articles[0]} foo="bar" flag />
-                <Article article={articles[1]} foo="bar" flag />
-                <Article article={articles[2]} foo="bar" flag />
-              </div>
+        <div className="holder">
+          <div class="blog">
+            <div class="short-article-box">
+              <Article article={articles[0]} foo="bar" flag />
+              <Article article={articles[1]} foo="bar" flag />
+              <Article article={articles[2]} foo="bar" flag />
             </div>
           </div>
-        </section>
-      </div>
+        </div>
+      </section>
     );
   }
 }
