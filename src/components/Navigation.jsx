@@ -12,7 +12,7 @@ class Navigation extends Component {
         <ul className="navigation-list">
           <li>
             <Link
-              to="aboutSchool-section"
+              to="about-school-section"
               spy={true}
               smooth={true}
               offset={-70}
@@ -34,7 +34,7 @@ class Navigation extends Component {
           </li>
           <li>
             <Link
-              to="howItWorks-section"
+              to="how-it-works-section"
               spy={true}
               smooth={true}
               offset={-70}
@@ -67,17 +67,6 @@ class Navigation extends Component {
           </li>
           <li>
             <Link
-              to="blog-section"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-            >
-              Blog
-            </Link>
-          </li>
-          <li>
-            <Link
               to="contacts-section"
               spy={true}
               smooth={true}
@@ -87,17 +76,6 @@ class Navigation extends Component {
               Contacts
             </Link>
           </li>
-          <li>
-            <Link
-              to="editor-section"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-            >
-              Add Article
-            </Link>
-          </li>
         </ul>
       </nav>
     );
@@ -105,3 +83,28 @@ class Navigation extends Component {
 }
 
 export default Navigation;
+
+/*
+<li>
+<Link
+  to="blog-section"
+  spy={true}
+  smooth={true}
+  offset={-70}
+  duration={500}
+>
+  Blog
+</Link>
+</li>
+<li>
+  <Link
+    to="editor-section"
+    spy={true}
+    smooth={true}
+    offset={-70}
+    duration={500}
+  >
+    Add Article
+  </Link>
+</li>;
+*/

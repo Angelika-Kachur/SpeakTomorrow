@@ -12,9 +12,7 @@ class contactsPage extends Component {
         <div className="holder">
           <div className="text">
             <h2 className="title">У вас есть вопрос?</h2>
-            {/* <p>Hello {name}</p>
-                            <p>With us you can study English from everywhere</p> */}
-            <p>С нами ты можешь выучить английской с любого уголка Земли</p>
+            {/* <p>Hello {name}</p> */}
             <p>С нами ты можешь выучить английской с любого уголка Земли</p>
           </div>
 

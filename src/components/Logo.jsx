@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import logoImage from "../images/logo.png";
-import { Link, animateScroll as scroll } from "react-scroll";
+import { animateScroll as scroll } from "react-scroll";
 
 class Logo extends Component {
   scrollToTop = () => {

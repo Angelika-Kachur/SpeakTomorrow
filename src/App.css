@@ -107,6 +107,7 @@
   flex-direction: column;
   min-height: 100vh;
   padding: 70px 0 0;
+  overflow: hidden;
 }
 
 /* General  */
@@ -157,7 +158,7 @@ a:hover {
   padding: 10px 0;
   background: #fff;
   font-size: 18px;
-  border-bottom: solid 1px #fbc2eb;
+  border-bottom: solid 1px rgba(192, 192, 192, .5);
   z-index: 50;
 }
 
@@ -206,7 +207,7 @@ a:hover {
 .navigation-list a:after {
   content: "";
   /* background: #fbc2eb; */
-  background: #2B86C5;
+  background: #0bd0cf;
   position: absolute;
   left: 0;
   bottom: -2px;
@@ -324,6 +325,15 @@ a:hover {
   margin: 0 0 20px;
 }
 
+/* About School */
+.about-school-section {
+  padding: 50px 0;
+}
+
+.about-school-section .image {
+  margin: 0 0 40px;
+}
+
 /* Blog  */
 .blog-section {
   padding: 50px 0;
@@ -349,7 +359,7 @@ a:hover {
 
 /* Contacts */
 .contacts-section {
-  padding: 50px 0;
+  padding: 50px 0 0;
 }
 
 .contacts-section .text {
@@ -360,7 +370,7 @@ a:hover {
 
 .contacts-form {
   max-width: 500px;
-  margin: 0 auto;
+  margin: 0 auto 50px;
 }
 
 .contacts-form label {
@@ -435,13 +445,14 @@ a:hover {
 }
 
 .group-links a {
-  color: #9b83ca;
+  color: #989898;
   position: relative;
 }
 
 .group-links a:after {
   content: "";
-  background: #fecfef;
+  background: #989898;
+  opacity: .2;
   position: absolute;
   left: 0;
   bottom: 1px;

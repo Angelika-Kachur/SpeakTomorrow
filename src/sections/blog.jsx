@@ -5,7 +5,7 @@ import TitleSection from "../components/TitleSection.jsx";
 
 var pageTitle = "Blog";
 
-class blogPage extends Component {
+class blog extends Component {
   state = {
     selectedPairs: []
   };
@@ -38,4 +38,4 @@ class blogPage extends Component {
   }
 }
 
-export default blogPage;
+export default blog;
