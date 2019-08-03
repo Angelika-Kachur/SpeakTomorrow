@@ -7,14 +7,19 @@ class Socials extends Component {
         <li>
           <a
             href="https://www.instagram.com/toma.tomorrow"
+            target="_blank"
             className="icon-social-instagram"
           />
         </li>
         <li>
-          <a href="#facebook" className="icon-social-facebook" />
+          <a
+            href="#facebook"
+            target="_blank"
+            className="icon-social-facebook"
+          />
         </li>
         <li>
-          <a href="#twitter" className="icon-social-twitter" />
+          <a href="#twitter" target="_blank" className="icon-social-twitter" />
         </li>
       </ul>
     );

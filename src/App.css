@@ -125,17 +125,14 @@ img {
 }
 
 a {
-  color: #654284;
-  color: #15e1e0;
-  color: #2b86c5;
-  color: #0bd0cf;
+  color: #00abd2;
   transition: all ease 0.4s;
   cursor: pointer;
 }
 
 a:hover {
   text-decoration: none;
-  color: #0bd0cf;
+  color: #00abd2;
 }
 
 .App-link {
@@ -169,21 +166,13 @@ a:hover {
 }
 
 /* Logo  */
-.logo {}
+.logo {
+  cursor: pointer;
+}
 
 .logo-image {
   animation: App-logo-spin infinite 20s linear;
-  height: 50px;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
+  height: 100px;
 }
 
 /* Navigation  */
@@ -206,8 +195,7 @@ a:hover {
 
 .navigation-list a:after {
   content: "";
-  /* background: #fbc2eb; */
-  background: #0bd0cf;
+  background: #00abd2;
   position: absolute;
   left: 0;
   bottom: -2px;
@@ -512,14 +500,10 @@ a:hover {
 
 /* Buttons */
 .btn {
-  color: #15e1e0;
-  color: #0bd0cf;
-
   color: #fff;
-  background: #e339a4;
-  background: #0bd0cf;
-  border: solid 1px #e339a4;
-  border: solid 1px #0bd0cf;
+  background: #00abd2;
+  ;
+  border: solid 1px #00abd2;
   transition: all ease 0.3s;
 }
 

@@ -1,7 +1,10 @@
 import React, { Component } from "react";
 import TitleSection from "../components/TitleSection.jsx";
 
-import imageGroup1 from "../images/skype-student-image.png";
+import imageGroup1 from "../images/can_by_myself.jpg";
+import imageGroup2 from "../images/individual.png";
+import imageGroup3 from "../images/command_player.jpg";
+import imageGroup4 from "../images/intensive.png";
 
 var pageTitle = "Действующие группы";
 
@@ -43,7 +46,7 @@ class groupsPage extends Component {
             <div className="group">
               <div className="tale">
                 <div className="group-image">
-                  <img src={imageGroup1} alt="" />
+                  <img src={imageGroup2} alt="" />
                 </div>
                 <h2 className="group-title">Средний</h2>
                 <div className="group-text">
@@ -71,7 +74,7 @@ class groupsPage extends Component {
             <div className="group">
               <div className="tale">
                 <div className="group-image">
-                  <img src={imageGroup1} alt="" />
+                  <img src={imageGroup3} alt="" />
                 </div>
                 <h2 className="group-title">Опытный</h2>
                 <div className="group-text">
@@ -99,7 +102,7 @@ class groupsPage extends Component {
             <div className="group">
               <div className="tale">
                 <div className="group-image">
-                  <img src={imageGroup1} alt="" />
+                  <img src={imageGroup4} alt="" />
                 </div>
                 <h2 className="group-title">Разговорный</h2>
                 <div className="group-text">
