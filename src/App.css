@@ -6,8 +6,7 @@
 @font-face {
   font-family: "icomoon";
   src: url("./fonts/icomoon/icomoon.eot?cunv4v");
-  src: url("./fonts/icomoon/icomoon.eot?cunv4v#iefix")
-      format("embedded-opentype"),
+  src: url("./fonts/icomoon/icomoon.eot?cunv4v#iefix") format("embedded-opentype"),
     url("./fonts/icomoon/icomoon.ttf?cunv4v") format("truetype"),
     url("./fonts/icomoon/icomoon.woff?cunv4v") format("woff"),
     url("./fonts/icomoon/icomoon.svg?cunv4v#icomoon") format("svg");
@@ -170,8 +169,7 @@ a:hover {
 }
 
 /* Logo  */
-.logo {
-}
+.logo {}
 
 .logo-image {
   animation: App-logo-spin infinite 20s linear;
@@ -313,8 +311,7 @@ a:hover {
   padding: 50px 0;
 }
 
-.about {
-}
+.about {}
 
 .about .image {
   margin: 0 0 30px 40px;
@@ -322,8 +319,7 @@ a:hover {
   width: 40%;
 }
 
-.about .text {
-}
+.about .text {}
 
 .about .title {
   margin: 0 0 20px;
@@ -482,8 +478,7 @@ a:hover {
   padding: 50px 0;
 }
 
-.reviews {
-}
+.reviews {}
 
 .review {
   margin: 0 0 50px;
@@ -547,6 +542,7 @@ a:hover {
 
 /* Media 992  */
 @media screen and (max-width: 992px) {
+
   /* Groups  */
   .groups {
     flex-wrap: wrap;
@@ -558,11 +554,9 @@ a:hover {
     padding: 20px 20px;
   }
 
-  .group-image {
-  }
+  .group-image {}
 
-  .group-title {
-  }
+  .group-title {}
 
   .group-text {
     max-height: 100%;
@@ -571,6 +565,7 @@ a:hover {
 
 /* Media 768  */
 @media screen and (max-width: 768px) {
+
   /* Groups  */
   .groups {
     flex-direction: column;
@@ -582,14 +577,11 @@ a:hover {
     margin: 0 0 20px;
   }
 
-  .group-image {
-  }
+  .group-image {}
 
-  .group-title {
-  }
+  .group-title {}
 
-  .group-text {
-  }
+  .group-text {}
 
   /* About */
   .about {
@@ -620,6 +612,7 @@ a:hover {
 
 /* Media 768  */
 @media screen and (max-width: 500px) {
+
   /* About */
   .about {
     display: block;
