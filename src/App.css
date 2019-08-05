@@ -410,8 +410,13 @@ a:hover {
 }
 
 .group-image {
-  height: 200px;
+  max-height: 200px;
   text-align: center;
+  margin: 0 0 5px;
+}
+
+.group-image img {
+  height: 200px;
 }
 
 .group-title {
