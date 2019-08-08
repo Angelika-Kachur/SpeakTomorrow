@@ -13,9 +13,9 @@ class homePage extends Component {
     return (
       <div id="home-section" className="page-content">
         <AboutSchool />
-        <About />
         <HowItWorks />
         <ForWho />
+        <About />
         <Groups />
         <Reviews />
         <Contacts />
