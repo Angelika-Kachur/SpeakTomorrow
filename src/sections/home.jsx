@@ -6,6 +6,7 @@ import Blog from "../sections/blog.jsx";
 import Reviews from "../sections/reviews.jsx";
 import Contacts from "../sections/contacts.jsx";
 import HowItWorks from "../sections/howItWorks.jsx";
+import ForWho from "../sections/forWho.jsx";
 
 class homePage extends Component {
   render() {
@@ -14,6 +15,7 @@ class homePage extends Component {
         <AboutSchool />
         <About />
         <HowItWorks />
+        <ForWho />
         <Groups />
         <Reviews />
         <Contacts />
