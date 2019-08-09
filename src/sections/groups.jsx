@@ -6,7 +6,7 @@ import imageGroup2 from "../images/individual.png";
 import imageGroup3 from "../images/command_player.jpg";
 import imageGroup4 from "../images/intensive.png";
 
-var pageTitle = "Действующие группы";
+var pageTitle = "Действующие курсы";
 
 class groupsPage extends Component {
   render() {
@@ -20,17 +20,26 @@ class groupsPage extends Component {
                 <div className="group-image">
                   <img src={imageGroup1} alt="" />
                 </div>
-                <h2 className="group-title">Начинающий</h2>
+                <h2 className="group-title">«Могу все сам»</h2>
                 <div className="group-text">
-                  <p>
-                    Группая прекрасно подойдёт для тех, кто только начинает свой
-                    путь в изучении английского
-                  </p>
-
-                  <p>
-                    Вы узнаете почему не нужно бояться времен английского язык и
-                    сколько же их на самом деле
-                  </p>
+                  <div className="list">
+                    <ul>
+                      <li>
+                        Студент ежедневно (!) получает задания от куратора и
+                        выполняет в течении 24 часов
+                      </li>
+                      <li>
+                        Раз в неделю нужно подготовить речь на одну из тем
+                      </li>
+                      <li>Ежедневный фитбек от куратора</li>
+                    </ul>
+                  </div>
+                  <div class="description">
+                    Подойдет тем, у кого есть знания в английском, кому нужна
+                    мотивация заниматься дальше, но нет времени на занятия с
+                    преподавателем.
+                  </div>
+                  <div className="start-level">От Intermediate</div>
                 </div>
                 <div className="group-links">
                   <a href="#">Навыки</a>
@@ -48,17 +57,21 @@ class groupsPage extends Component {
                 <div className="group-image">
                   <img src={imageGroup2} alt="" />
                 </div>
-                <h2 className="group-title">Средний</h2>
+                <h2 className="group-title">«Индивидуальный»</h2>
                 <div className="group-text">
-                  <p>
-                    Группая прекрасно подойдёт для тех, кто только начинает свой
-                    путь в изучении английского
-                  </p>
-
-                  <p>
-                    Вы узнаете почему не нужно бояться времен английского язык и
-                    сколько же их на самом деле
-                  </p>
+                  <div className="list">
+                    <ul>
+                      <li>Индивидуальные занятия в Skype в удобное время</li>
+                      <li>Домашки</li>
+                      <li>Собственный список слов для запоминания</li>
+                      <li>Английский чат с преподавателем</li>
+                    </ul>
+                  </div>
+                  <div class="description">
+                    Подойдет тем, кто только начинает свой путь в изучении, кому
+                    нужна систематичность и помощь преподавателя
+                  </div>
+                  <div className="start-level">От Elementary</div>
                 </div>
                 <div className="group-links">
                   <a href="#">Навыки</a>
@@ -76,17 +89,27 @@ class groupsPage extends Component {
                 <div className="group-image">
                   <img src={imageGroup3} alt="" />
                 </div>
-                <h2 className="group-title">Опытный</h2>
+                <h2 className="group-title">«Интенсивный»</h2>
                 <div className="group-text">
-                  <p>
-                    Группая прекрасно подойдёт для тех, кто только начинает свой
-                    путь в изучении английского
-                  </p>
-
-                  <p>
-                    Вы узнаете почему не нужно бояться времен английского язык и
-                    сколько же их на самом деле
-                  </p>
+                  <div className="list">
+                    <ul>
+                      <li>
+                        Индивидуальные занятия в Skype в удобное вам время
+                      </li>
+                      <li>Домашки</li>
+                      <li>
+                        Eжедневное (!) общение на английском с партнером по
+                        курсу
+                      </li>
+                      <li>Собственный список слов для запоминания</li>
+                      <li>Английский чат с куратором и студентами школы</li>
+                    </ul>
+                  </div>
+                  <div class="description">
+                    Подойдет тем, кто хочет заниматься интенсивно и достичь
+                    быстрых результатов
+                  </div>
+                  <div className="start-level">От Elementary</div>
                 </div>
                 <div className="group-links">
                   <a href="#">Навыки</a>
@@ -104,17 +127,24 @@ class groupsPage extends Component {
                 <div className="group-image">
                   <img src={imageGroup4} alt="" />
                 </div>
-                <h2 className="group-title">Разговорный</h2>
+                <h2 className="group-title">«Командный игрок»</h2>
                 <div className="group-text">
-                  <p>
-                    Группая прекрасно подойдёт для тех, кто только начинает свой
-                    путь в изучении английского
-                  </p>
-
-                  <p>
-                    Вы узнаете почему не нужно бояться времен английского язык и
-                    сколько же их на самом деле
-                  </p>
+                  <div className="list">
+                    <ul>
+                      <li>Разговорная практика в маленькой группе</li>
+                      <li>Проверка домашек куратором</li>
+                      <li>
+                        Общение на английском 3 рвза в неделю с партнером по
+                        курсу
+                      </li>
+                      <li>Список слов для запоминания</li>
+                      <li>Английский чат с куратором и студентами школы</li>
+                    </ul>
+                  </div>
+                  <div class="description">
+                    Подойдет тем, кто любит работать в группе и соревнования
+                  </div>
+                  <div className="start-level">От Elementary</div>
                 </div>
                 <div className="group-links">
                   <a href="#">Навыки</a>
