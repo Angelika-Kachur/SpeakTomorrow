@@ -223,12 +223,12 @@ a:hover {
   background: linear-gradient(-225deg, #ff3cac 0%, #562b7c 52%, #2b86c5 100%);
   background: #fff;
   opacity: 0.95;
-}
 
-.title-section .title {
-  color: #fff;
-  color: #000;
-  text-align: center;
+  .title {
+    color: #fff;
+    color: #000;
+    text-align: center;
+  }
 }
 
 /* Socials  */
@@ -238,30 +238,30 @@ a:hover {
   margin: 10px -10px;
   display: flex;
   align-items: center;
-}
 
-.socials li {
-  margin: 0 10px;
-}
+  li {
+    margin: 0 10px;
+  }
 
-.socials li a {
-  font-size: 26px;
-  transition: all ease 0.3s;
-  display: inline-block;
-  position: relative;
-  transition: all 200ms ease-in;
-  transform: scale(1);
-  border-radius: 50px;
-}
+  a {
+    font-size: 26px;
+    transition: all ease 0.3s;
+    display: inline-block;
+    position: relative;
+    transition: all 200ms ease-in;
+    transform: scale(1);
+    border-radius: 50px;
 
-.socials li a:hover {
-  transform: scale(1.1);
-  z-index: 2;
-  transform: scale(1.5);
-}
+    &:hover {
+      transform: scale(1.1);
+      z-index: 2;
+      transform: scale(1.5);
+    }
 
-.socials li a.icon-social-facebook {
-  font-size: 32px;
+    &.icon-social-facebook {
+      font-size: 32px;
+    }
+  }
 }
 
 .bg-white {
@@ -278,20 +278,20 @@ a:hover {
   background: #343a40;
   padding: 30px 0;
   color: #fff;
-}
 
-.footer .holder {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
+  .holder {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 
-.footer .socials {
-  order: 1;
-}
+  .socials {
+    order: 1;
+  }
 
-.footer a {
-  color: #fff;
+  a {
+    color: #fff;
+  }
 }
 
 /* About  */
@@ -299,27 +299,28 @@ a:hover {
   padding: 50px 0;
 }
 
-.about {}
+.about {
 
-.about .image {
-  margin: 0 0 30px 40px;
-  float: right;
-  width: 40%;
-}
+  .image {
+    margin: 0 0 30px 40px;
+    float: right;
+    width: 40%;
+  }
 
-.about .text {}
+  .text {}
 
-.about .title {
-  margin: 0 0 20px;
+  .title {
+    margin: 0 0 20px;
+  }
 }
 
 /* About School */
 .about-school-section {
   padding: 50px 0;
-}
 
-.about-school-section .image {
-  margin: 0 0 40px;
+  .image {
+    margin: 0 0 40px;
+  }
 }
 
 /* Blog  */
@@ -332,56 +333,69 @@ a:hover {
   margin: 0 auto;
 }
 
-.article .image {
-  margin: 0 0 25px;
-  text-align: center;
-}
-
-.article .title {
-  margin: 0 0 20px;
-}
-
 .article {
   margin: 0 0 80px;
+
+  .image {
+    margin: 0 0 25px;
+    text-align: center;
+  }
+
+  .title {
+    margin: 0 0 20px;
+  }
 }
 
 /* Contacts */
 .contacts-section {
   padding: 50px 0 0;
-}
 
-.contacts-section .text {
-  max-width: 500px;
-  margin: 0 auto;
-  text-align: center;
+  .text {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
 }
 
 .contacts-form {
   max-width: 500px;
   margin: 0 auto 50px;
-}
 
-.contacts-form label {
-  display: block;
-}
+  label {
+    display: block;
+  }
 
-.contacts-form input,
-.contacts-form textarea {
-  background-color: #fff;
-  width: 100%;
-  height: 30px;
-  margin-bottom: 20px;
-  padding: 0 8px;
-  border: 1px solid #4371b2;
-  border-radius: 5px;
-  transition: all ease 0.3s;
-  color: #2b2b2b;
-}
+  input,
+  textarea {
+    background-color: #fff;
+    width: 100%;
+    height: 30px;
+    margin-bottom: 20px;
+    padding: 0 8px;
+    border: 1px solid #4371b2;
+    border-radius: 5px;
+    transition: all ease 0.3s;
+    color: #2b2b2b;
+  }
 
-.contacts-form input:focus,
-.contacts-form textarea:focus {
-  border-color: #d142a4;
-  outline: none;
+  input,
+  textarea {
+    background-color: #fff;
+    width: 100%;
+    height: 30px;
+    margin-bottom: 20px;
+    padding: 0 8px;
+    border: 1px solid #4371b2;
+    border-radius: 5px;
+    transition: all ease 0.3s;
+    color: #2b2b2b;
+
+    &:focus {
+      border-color: #d142a4;
+      outline: none;
+    }
+  }
 }
 
 /* Groups */
@@ -398,25 +412,25 @@ a:hover {
 .group {
   width: 25%;
   padding: 0 10px;
-}
 
-.group .tale {
-  margin: 0 auto;
-  padding: 20px;
-  max-width: 400px;
-  background: white;
-  border: solid 1px #a18cd1;
-  border: solid 1px #e6e6e6;
+  .tale {
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 400px;
+    background: white;
+    border: solid 1px #a18cd1;
+    border: solid 1px #e6e6e6;
+  }
 }
 
 .group-image {
   max-height: 200px;
   text-align: center;
   margin: 0 0 5px;
-}
 
-.group-image img {
-  height: 200px;
+  img {
+    height: 200px;
+  }
 }
 
 .group-title {
@@ -435,35 +449,37 @@ a:hover {
   display: flex;
   justify-content: space-between;
   margin: 0 0 15px;
+
+  a {
+    color: #989898;
+    position: relative;
+
+    &:after {
+      content: "";
+      background: #989898;
+      opacity: 0.2;
+      position: absolute;
+      left: 0;
+      bottom: 1px;
+      height: 1px;
+      width: 0;
+      transition: width ease 0.3s;
+    }
+
+    &:hover {
+      text-decoration: none;
+
+      &:after {
+        width: 100%;
+      }
+    }
+  }
 }
 
-.group-links a {
-  color: #989898;
-  position: relative;
-}
-
-.group-links a:after {
-  content: "";
-  background: #989898;
-  opacity: 0.2;
-  position: absolute;
-  left: 0;
-  bottom: 1px;
-  height: 1px;
-  width: 0;
-  transition: width ease 0.3s;
-}
-
-.group-links a:hover {
-  text-decoration: none;
-}
-
-.group-links a:hover:after {
-  width: 100%;
-}
-
-.group-btn .btn {
-  width: 100%;
+.group-btn {
+  .btn {
+    width: 100%;
+  }
 }
 
 /* Reviews */
@@ -475,15 +491,15 @@ a:hover {
 
 .review {
   margin: 0 0 50px;
-}
 
-.review .tale {
-  margin: 0 auto;
-  padding: 20px;
-  max-width: 700px;
-  background: white;
-  border: solid 1px #a18cd1;
-  border: solid 1px #e6e6e6;
+  .tale {
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 700px;
+    background: white;
+    border: solid 1px #a18cd1;
+    border: solid 1px #e6e6e6;
+  }
 }
 
 .review-image {
@@ -507,20 +523,20 @@ a:hover {
 .btn {
   color: #fff;
   background: #00abd2;
-  ;
   border: solid 1px #00abd2;
   transition: all ease 0.3s;
+
+  &:focus {
+    outline: none;
+    box-shadow: none;
+  }
+
+  &:hover {
+    background: #fff;
+    /* background: linear-gradient(to top, #ff9a9e 0%, #fecfef 99%, #fecfef 100%); */
+  }
 }
 
-.btn:focus {
-  outline: none;
-  box-shadow: none;
-}
-
-.btn:hover {
-  background: #fff;
-  /* background: linear-gradient(to top, #ff9a9e 0%, #fecfef 99%, #fecfef 100%); */
-}
 
 /* Media 1024  */
 @media screen and (max-width: 1024px) {
