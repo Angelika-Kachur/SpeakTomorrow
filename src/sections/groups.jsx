@@ -89,7 +89,7 @@ class groupsPage extends Component {
                 <div className="group-image">
                   <img src={imageGroup3} alt="" />
                 </div>
-                <h2 className="group-title">«Командный игрок»</h2>
+                <h2 className="group-title">«Командный</h2>
                 <div className="group-text">
                   <div className="list">
                     <ul>
