@@ -468,6 +468,29 @@ a:hover {
   width: 100%;
 }
 
+/* Our Team */
+.team-section {}
+
+.our-team {}
+
+.team-card {
+  margin: 0 0 20px;
+}
+
+
+.team-card .image {
+  max-width: 300px;
+  margin: 0 0 10px;
+}
+
+.team-card .text {}
+
+.team-card .name {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0 0 10px;
+}
+
 /* Reviews */
 .reviews-section {
   padding: 50px 0;

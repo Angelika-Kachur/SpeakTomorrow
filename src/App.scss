@@ -480,6 +480,20 @@ a:hover {
   }
 }
 
+/* Our Team */
+.team-section {}
+
+.our-team {}
+
+.team-card {
+  display: flex;
+  margin: 0 0 20px;
+
+  .image {}
+
+  .text {}
+}
+
 /* Reviews */
 .reviews-section {
   padding: 50px 0;
