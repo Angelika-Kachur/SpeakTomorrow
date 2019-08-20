@@ -94,28 +94,3 @@ class Navigation extends Component {
 }
 
 export default Navigation;
-
-/*
-<li>
-<Link
-  to="blog-section"
-  spy={true}
-  smooth={true}
-  offset={-70}
-  duration={500}
->
-  Blog
-</Link>
-</li>
-<li>
-  <Link
-    to="editor-section"
-    spy={true}
-    smooth={true}
-    offset={-70}
-    duration={500}
-  >
-    Add Article
-  </Link>
-</li>;
-*/
