@@ -3,7 +3,6 @@ import About from "../sections/about.jsx";
 import AboutSchool from "../sections/aboutSchool.jsx";
 import Groups from "../sections/groups.jsx";
 import OurTeam from "../sections/ourTeam.jsx";
-import Blog from "../sections/blog.jsx";
 import Reviews from "../sections/reviews.jsx";
 import Contacts from "../sections/contacts.jsx";
 import HowItWorks from "../sections/howItWorks.jsx";
@@ -21,7 +20,6 @@ class homePage extends Component {
         <OurTeam />
         <Reviews />
         <Contacts />
-        <Blog />
       </div>
     );
   }
