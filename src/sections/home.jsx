@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import About from "../sections/about.jsx";
 import AboutSchool from "../sections/aboutSchool.jsx";
 import Groups from "../sections/groups.jsx";
 import OurTeam from "../sections/ourTeam.jsx";
@@ -15,7 +14,6 @@ class homePage extends Component {
         <AboutSchool />
         <HowItWorks />
         <ForWho />
-        <About />
         <Groups />
         <OurTeam />
         <Reviews />

@@ -23,17 +23,6 @@ class Navigation extends Component {
           </li>
           <li>
             <Link
-              to="about-section"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-            >
-              About
-            </Link>
-          </li>
-          <li>
-            <Link
               to="how-it-works-section"
               spy={true}
               smooth={true}
