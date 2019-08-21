@@ -475,20 +475,33 @@ a:hover {
 
 .team-card {
   margin: 0 0 20px;
+  display: flex;
 }
 
 
 .team-card .image {
-  max-width: 300px;
-  margin: 0 0 10px;
+  min-width: 300px;
+  margin: 45px 20px 20px 0;
 }
 
 .team-card .text {}
 
 .team-card .name {
-  font-size: 18px;
+  font-size: 19px;
   font-weight: 700;
   margin: 0 0 10px;
+}
+
+.team-card .info {}
+
+.team-card .why {}
+
+.team-card .diplomas {}
+
+.team-card .title {
+  font-size: 16px;
+  font-weight: 600;
+  font-style: italic;
 }
 
 /* Reviews */

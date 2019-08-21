@@ -43,7 +43,7 @@ class ourTeam extends Component {
                   </p>
                 </div>
                 <div className="why">
-                  <h3>Почему я преподаю?</h3>
+                  <h3 class="title">Почему я преподаю?</h3>
                   <p>
                     У меня есть знания, которыми хочу и могу поделиться. И это
                     не просто знание слов, грамматики, правил чтения и письма,
@@ -57,7 +57,7 @@ class ourTeam extends Component {
                   </p>
                 </div>
                 <div className="diplomas">
-                  <h3>Мои «корочки»:</h3>
+                  <h3 class="title">Мои «корочки»:</h3>
                   <dl>
                     <dt>2006-2011гг.</dt>
                     <dd>ХНПУ имени Г.С.Сковороды</dd>
