@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import TitleSection from "../components/TitleSection.jsx";
 import teacherDiana from "../images/teacher-diana.jpg";
 
-var pageTitle = "Наши учителя";
+var pageTitle = "Наши преподаватели";
 
 class ourTeam extends Component {
   render() {
