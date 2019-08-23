@@ -18,7 +18,7 @@ class ourTeam extends Component {
                 <img src={teacherToma} alt="" />
               </div>
               <div className="text">
-                <div className="name">Diana (Di) Teacher</div>
+                <div className="name">Toma (Tomorrow) Tachilina</div>
                 <div className="info">
                   <p>
                     Меня зовут Тома, я преподаю английский больше 10 лет. С
