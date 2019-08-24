@@ -37,7 +37,7 @@ class contactsPage extends Component {
             <input type="submit" value="Submit" />
           </form>
         </div>
-        <Map />
+        {/* <Map /> */}
       </section>
     );
   }
