@@ -473,16 +473,12 @@ a:hover {
   height: 200px;
   border-radius: 100%;
   overflow: hidden;
+  margin: 0 0 10px;
 }
 
 .review-position {
   font-size: 25px;
   margin: 0 0 15px;
-}
-
-.review-text {
-  max-height: 100px;
-  overflow: hidden;
 }
 
 /* Buttons */
