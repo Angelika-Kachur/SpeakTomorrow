@@ -15,8 +15,6 @@ class aboutSchool extends Component {
         </div>
         <div className="holder">
           <div className="about-school">
-            {/* <div className="text">*/}
-            {/*<h2 className="title">Меня зовут тома</h2>*/}
             <p>
               Школа английского языка Speak Tomorrow это место, где вас
               гарантированно научат говорить по-английскии и чувствовать себя
@@ -48,7 +46,6 @@ class aboutSchool extends Component {
               нудным, а интересным и в удовольствие.
             </p>
             <Socials />
-            {/* </div>*/}
           </div>
         </div>
       </section>
