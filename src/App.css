@@ -327,29 +327,6 @@ a:hover {
   margin: 0 0 40px;
 }
 
-/* Blog  */
-.blog-section {
-  padding: 50px 0;
-}
-
-.blog {
-  max-width: 600px;
-  margin: 0 auto;
-}
-
-.article .image {
-  margin: 0 0 25px;
-  text-align: center;
-}
-
-.article .title {
-  margin: 0 0 20px;
-}
-
-.article {
-  margin: 0 0 80px;
-}
-
 /* Contacts */
 .contacts-section {
   padding: 50px 0 0;
