@@ -34,7 +34,7 @@ class Navigation extends Component {
           </li>
           <li>
             <Link
-              to="our-team"
+              to="our-team-section"
               spy={true}
               smooth={true}
               offset={-70}

@@ -233,7 +233,7 @@ a:hover {
 
 /* Section */
 .section {
-  padding: 100px 0 0;
+  padding: 70px 0 0;
 }
 
 /* Socials  */
@@ -300,15 +300,11 @@ a:hover {
 }
 
 /* About  */
-.about {}
-
 .about .image {
   margin: 0 0 30px 40px;
   float: right;
   width: 40%;
 }
-
-.about .text {}
 
 .about .title {
   margin: 0 0 20px;
@@ -435,8 +431,6 @@ a:hover {
 }
 
 /* Our Team */
-.our-team {}
-
 .team-card {
   margin: 0 0 20px;
   display: flex;
@@ -448,19 +442,11 @@ a:hover {
   margin: 25px 20px 20px 0;
 }
 
-.team-card .text {}
-
 .team-card .name {
   font-size: 19px;
   font-weight: 700;
   margin: 0 0 10px;
 }
-
-.team-card .info {}
-
-.team-card .why {}
-
-.team-card .diplomas {}
 
 .team-card .title {
   font-size: 16px;
@@ -469,8 +455,6 @@ a:hover {
 }
 
 /* Reviews */
-.reviews {}
-
 .review {
   margin: 0 0 50px;
 }
@@ -541,10 +525,6 @@ a:hover {
     padding: 20px 20px;
   }
 
-  .group-image {}
-
-  .group-title {}
-
   .group-text {
     max-height: 100%;
   }
@@ -563,12 +543,6 @@ a:hover {
     width: 100%;
     margin: 0 0 20px;
   }
-
-  .group-image {}
-
-  .group-title {}
-
-  .group-text {}
 
   /* About */
   .about {
