@@ -231,6 +231,11 @@ a:hover {
   text-align: center;
 }
 
+/* Section */
+.section {
+  padding: 100px 0 0;
+}
+
 /* Socials  */
 .socials {
   list-style: none;
@@ -505,10 +510,6 @@ a:hover {
 }
 
 /* Reviews */
-.reviews-section {
-  padding: 50px 0;
-}
-
 .reviews {}
 
 .review {
