@@ -8,7 +8,7 @@ var pageTitle = "Add Article";
 class addArticle extends Component {
   render() {
     return (
-      <section className="add-article-section">
+      <section className="add-article-section section">
         <TitleSection title={pageTitle} />
         <div className="holder">
           <div className="add-article">

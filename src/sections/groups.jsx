@@ -11,7 +11,7 @@ var pageTitle = "Действующие курсы";
 class groupsPage extends Component {
   render() {
     return (
-      <section className="groups-section" data-aos="fade-right">
+      <section className="groups-section section" data-aos="fade-right">
         <TitleSection title={pageTitle} />
         <div className="holder">
           <div className="groups">

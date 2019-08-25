@@ -6,7 +6,7 @@ var pageTitle = "Мы работаем даже с теми кто:";
 class forWho extends Component {
   render() {
     return (
-      <section className="how-it-works-section" data-aos="fade-left">
+      <section className="how-it-works-section section" data-aos="fade-left">
         <TitleSection title={pageTitle} />
         <div className="holder">
           <div className="how-it-works">

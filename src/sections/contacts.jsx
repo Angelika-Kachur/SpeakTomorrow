@@ -7,7 +7,11 @@ var pageTitle = "Contacts";
 class contactsPage extends Component {
   render() {
     return (
-      <section id="contacts" className="contacts-section" data-aos="fade-right">
+      <section
+        id="contacts"
+        className="contacts-section section"
+        data-aos="fade-right"
+      >
         <TitleSection title={pageTitle} />
         <div className="holder">
           <div className="text">

@@ -8,7 +8,7 @@ var pageTitle = "Про Speak Tomorrow";
 class aboutSchool extends Component {
   render() {
     return (
-      <section className="about-school-section">
+      <section className="about-school-section section">
         <TitleSection title={pageTitle} />
         <div className="image">
           <img src={imageAboutSchool} alt="" />

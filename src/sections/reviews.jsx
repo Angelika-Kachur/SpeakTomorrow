@@ -10,7 +10,7 @@ class reviewsPage extends Component {
       <div className="page-content" data-aos="fade-left">
         <TitleSection title={pageTitle} />
 
-        <section id="reviews" className="reviews-section">
+        <section id="reviews" className="reviews-section section">
           <div className="holder">
             <div className="reviews">
               <div className="review">

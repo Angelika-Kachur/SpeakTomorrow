@@ -9,7 +9,7 @@ var pageTitle = "Наши преподаватели";
 class ourTeam extends Component {
   render() {
     return (
-      <section className="our-team-section" data-aos="fade-right">
+      <section className="our-team-section section" data-aos="fade-right">
         <TitleSection title={pageTitle} />
         <div className="holder">
           <div className="our-team">
