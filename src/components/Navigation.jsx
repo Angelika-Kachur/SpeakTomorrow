@@ -34,17 +34,6 @@ class Navigation extends Component {
           </li>
           <li>
             <Link
-              to="our-team-section"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-            >
-              Our Team
-            </Link>
-          </li>
-          <li>
-            <Link
               to="groups-section"
               spy={true}
               smooth={true}
@@ -52,6 +41,17 @@ class Navigation extends Component {
               duration={500}
             >
               Groups
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="our-team-section"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
+              Our Team
             </Link>
           </li>
           <li>
