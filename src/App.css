@@ -6,7 +6,8 @@
 @font-face {
   font-family: "icomoon";
   src: url("./fonts/icomoon/icomoon.eot?cunv4v");
-  src: url("./fonts/icomoon/icomoon.eot?cunv4v#iefix") format("embedded-opentype"),
+  src: url("./fonts/icomoon/icomoon.eot?cunv4v#iefix")
+      format("embedded-opentype"),
     url("./fonts/icomoon/icomoon.ttf?cunv4v") format("truetype"),
     url("./fonts/icomoon/icomoon.woff?cunv4v") format("woff"),
     url("./fonts/icomoon/icomoon.svg?cunv4v#icomoon") format("svg");
@@ -188,7 +189,6 @@ a:hover {
 }
 
 .navigation-list a {
-  /* color: #a68fd2; */
   color: #562b7c;
   position: relative;
 }
@@ -436,7 +436,6 @@ a:hover {
   display: flex;
 }
 
-
 .team-card .image {
   min-width: 300px;
   margin: 25px 20px 20px 0;
@@ -485,7 +484,6 @@ a:hover {
 .btn {
   color: #fff;
   background: #00abd2;
-  ;
   border: solid 1px #00abd2;
   transition: all ease 0.3s;
 }
@@ -497,7 +495,6 @@ a:hover {
 
 .btn:hover {
   background: #fff;
-  /* background: linear-gradient(to top, #ff9a9e 0%, #fecfef 99%, #fecfef 100%); */
 }
 
 /* Media 1024  */
@@ -509,7 +506,6 @@ a:hover {
 
 /* Media 992  */
 @media screen and (max-width: 992px) {
-
   /* Groups  */
   .groups {
     flex-wrap: wrap;
@@ -528,7 +524,6 @@ a:hover {
 
 /* Media 768  */
 @media screen and (max-width: 768px) {
-
   /* Groups  */
   .groups {
     flex-direction: column;
@@ -569,7 +564,6 @@ a:hover {
 
 /* Media 768  */
 @media screen and (max-width: 500px) {
-
   /* About */
   .about {
     display: block;
