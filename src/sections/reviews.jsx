@@ -78,7 +78,7 @@ class reviewsPage extends Component {
                 </div>
                 <h2 className="review-name">Коргут Сергей</h2>
                 <h2 className="review-position">
-                  Директор по маркетингу Dream Team Studio
+                  Head of Marketing Dream Team Studio
                 </h2>
                 <div className="review-text">
                   <p>
