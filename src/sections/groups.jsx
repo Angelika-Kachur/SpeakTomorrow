@@ -43,9 +43,7 @@ class groupsPage extends Component {
                 </div>
                 <div className="group-links">
                   <a href="#">Навыки</a>
-                  {/* Какие навыки есть у того кто в начинающей группе*/}
                   <a href="#">Материалы</a>
-                  {/* Материалы подходящие начинающих*/}
                 </div>
                 <div className="group-btn">
                   <button className="btn">Записаться</button>
@@ -75,9 +73,7 @@ class groupsPage extends Component {
                 </div>
                 <div className="group-links">
                   <a href="#">Навыки</a>
-                  {/* Какие навыки есть у того кто в начинающей группе*/}
                   <a href="#">Материалы</a>
-                  {/* Материалы подходящие начинающих*/}
                 </div>
                 <div className="group-btn">
                   <button className="btn">Записаться</button>
@@ -113,9 +109,7 @@ class groupsPage extends Component {
                 </div>
                 <div className="group-links">
                   <a href="#">Навыки</a>
-                  {/* Какие навыки есть у того кто в начинающей группе*/}
                   <a href="#">Материалы</a>
-                  {/* Материалы подходящие начинающих*/}
                 </div>
                 <div className="group-btn">
                   <button className="btn">Записаться</button>
@@ -148,9 +142,7 @@ class groupsPage extends Component {
                 </div>
                 <div className="group-links">
                   <a href="#">Навыки</a>
-                  {/* Какие навыки есть у того кто в начинающей группе*/}
                   <a href="#">Материалы</a>
-                  {/* Материалы подходящие начинающих*/}
                 </div>
                 <div className="group-btn">
                   <button className="btn">Записаться</button>
