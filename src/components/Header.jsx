@@ -9,6 +9,7 @@ class Header extends Component {
         <div className="holder">
           <Logo />
           <Navigation />
+          <button className="btn btn-ask-question">Задать вопрос</button>
         </div>
       </header>
     );
