@@ -367,6 +367,9 @@ a:hover {
   outline: none;
 }
 
+/* Advantages */
+.advantages {}
+
 /* Groups */
 .groups {
   display: flex;

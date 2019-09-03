@@ -6,10 +6,10 @@ var pageTitle = "Преимущества:";
 class advantages extends Component {
   render() {
     return (
-      <section className="how-it-works-section section" data-aos="fade-left">
+      <section className="advantages-section section" data-aos="fade-left">
         <TitleSection title={pageTitle} />
         <div className="holder">
-          <div className="how-it-works">
+          <div className="advantages">
             <ul className="list">
               <li>
                 Мы не орем, как школьные училки, и не гнобим, если студент
