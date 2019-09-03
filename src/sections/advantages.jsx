@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import TitleSection from "../components/TitleSection.jsx";
 
-var pageTitle = "Как мы работаем:";
+var pageTitle = "Преимущества:";
 
-class howItWorks extends Component {
+class advantages extends Component {
   render() {
     return (
       <section className="how-it-works-section section" data-aos="fade-left">
@@ -48,4 +48,4 @@ class howItWorks extends Component {
   }
 }
 
-export default howItWorks;
+export default advantages;

@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 import Welcome from "../sections/welcome.jsx";
 import AboutSchool from "../sections/aboutSchool.jsx";
+import Аdvantages from "../sections/advantages.jsx";
 import Groups from "../sections/groups.jsx";
 import OurTeam from "../sections/ourTeam.jsx";
 import Reviews from "../sections/reviews.jsx";
 import Contacts from "../sections/contacts.jsx";
-import HowItWorks from "../sections/howItWorks.jsx";
 import ForWho from "../sections/forWho.jsx";
 
 class homePage extends Component {
@@ -14,7 +14,7 @@ class homePage extends Component {
       <div id="home-section" className="page-content">
         <Welcome />
         <AboutSchool />
-        <HowItWorks />
+        <Аdvantages />
         <ForWho />
         <Groups />
         <OurTeam />
