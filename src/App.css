@@ -324,6 +324,14 @@ a:hover {
   margin: 0 0 40px;
 }
 
+.about-school {
+  display: flex;
+}
+
+.about-school .col {
+  width: 50%;
+}
+
 /* Contacts */
 .contacts-section .text {
   max-width: 500px;
