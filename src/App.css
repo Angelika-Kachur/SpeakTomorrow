@@ -6,8 +6,7 @@
 @font-face {
   font-family: "icomoon";
   src: url("./fonts/icomoon/icomoon.eot?cunv4v");
-  src: url("./fonts/icomoon/icomoon.eot?cunv4v#iefix")
-      format("embedded-opentype"),
+  src: url("./fonts/icomoon/icomoon.eot?cunv4v#iefix") format("embedded-opentype"),
     url("./fonts/icomoon/icomoon.ttf?cunv4v") format("truetype"),
     url("./fonts/icomoon/icomoon.woff?cunv4v") format("woff"),
     url("./fonts/icomoon/icomoon.svg?cunv4v#icomoon") format("svg");
@@ -299,6 +298,16 @@ a:hover {
   color: #fff;
 }
 
+/* Welcome  */
+.welcome-section {}
+
+.welcome-title {
+  text-align: center;
+  font-size: 40px;
+  margin: 20px 0 20px;
+}
+
+
 /* About  */
 .about .image {
   margin: 0 0 30px 40px;
@@ -506,6 +515,7 @@ a:hover {
 
 /* Media 992  */
 @media screen and (max-width: 992px) {
+
   /* Groups  */
   .groups {
     flex-wrap: wrap;
@@ -524,6 +534,7 @@ a:hover {
 
 /* Media 768  */
 @media screen and (max-width: 768px) {
+
   /* Groups  */
   .groups {
     flex-direction: column;
@@ -564,6 +575,7 @@ a:hover {
 
 /* Media 768  */
 @media screen and (max-width: 500px) {
+
   /* About */
   .about {
     display: block;
