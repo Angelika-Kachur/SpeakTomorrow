@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Welcome from "../sections/welcome.jsx";
 import AboutSchool from "../sections/aboutSchool.jsx";
 import Groups from "../sections/groups.jsx";
 import OurTeam from "../sections/ourTeam.jsx";
@@ -11,6 +12,7 @@ class homePage extends Component {
   render() {
     return (
       <div id="home-section" className="page-content">
+        <Welcome />
         <AboutSchool />
         <HowItWorks />
         <ForWho />
