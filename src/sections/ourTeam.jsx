@@ -60,6 +60,16 @@ class ourTeam extends Component {
                     Вы можете узнать обо мне больше на моих личных страничках в
                     разных соцсетях и не стесняться задавать свои вопросы:
                   </p>
+                  <dl className="detailed-info">
+                    <dt>Стаж:</dt>
+                    <dd>10 лет</dd>
+                    <dt>Сертификаты:</dt>
+                    <dd>
+                      <ul className="certificates">
+                        <li>Sertificate of London school</li>
+                      </ul>
+                    </dd>
+                  </dl>
                   <Socials />
                 </div>
               </div>
