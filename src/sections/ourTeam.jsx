@@ -80,7 +80,7 @@ class ourTeam extends Component {
               </div>
               <div className="text">
                 <div className="name">Diana (Di) Teacher</div>
-                <div className="info">
+                <div className="about-teacher">
                   <p>
                     Привет, меня зовут Диана. Я – преподаватель английского
                     языка с 8-летней практикой. С 2014 года веду индивидуальные
@@ -132,6 +132,7 @@ class ourTeam extends Component {
                     </dd>
                   </dl>
                 </div>
+                <button className="btn">Читать больше</button>
               </div>
             </div>
           </div>
