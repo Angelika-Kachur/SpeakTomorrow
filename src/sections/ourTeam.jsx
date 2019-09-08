@@ -133,6 +133,7 @@ class ourTeam extends Component {
                   </dl>
                 </div>
                 <button className="btn">Читать больше</button>
+                <button className="btn">Записаться на мой урок</button>
               </div>
             </div>
           </div>
