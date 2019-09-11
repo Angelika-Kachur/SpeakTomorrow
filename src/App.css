@@ -459,7 +459,7 @@ a:hover {
 }
 
 .team-card .image {
-  min-width: 300px;
+  flex: 0 0 25%;
   margin: 25px 20px 20px 0;
 }
 
@@ -490,6 +490,10 @@ a:hover {
 
 .team-card .btn-box .btn {
   margin: 0 5px;
+}
+
+.team-card .hide {
+  display: none;
 }
 
 /* Reviews */
