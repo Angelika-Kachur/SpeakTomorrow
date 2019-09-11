@@ -98,10 +98,8 @@ class reviewsPage extends Component {
                 <div className="review-image">
                   <img src={imageReview3} alt="" />
                 </div>
-                <h2 className="review-name">Коргут Сергей</h2>
-                <h2 className="review-position">
-                  Head of Marketing Dream Team Studio
-                </h2>
+                <h2 className="review-name">Юля Яценко</h2>
+                <h2 className="review-position">Project Manager</h2>
                 <div className="review-text">
                   <p>
                     Занимаюсь с Дианой уже в течение 5 месяцев. До этого
