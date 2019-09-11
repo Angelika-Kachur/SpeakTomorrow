@@ -3,6 +3,7 @@ import TitleSection from "../components/TitleSection.jsx";
 import imageReview1 from "../images/review-1.jpg";
 import imageReview2 from "../images/review-2.jpg";
 import imageReview3 from "../images/review-3.jpg";
+import imageReview4 from "../images/review-4.jpg";
 
 var pageTitle = "Вот что говорят наши студенты:";
 
@@ -96,7 +97,7 @@ class reviewsPage extends Component {
             <div className="review">
               <div className="tale">
                 <div className="review-image">
-                  <img src={imageReview3} alt="" />
+                  <img src={imageReview4} alt="" />
                 </div>
                 <h2 className="review-name">Юля Яценко</h2>
                 <h2 className="review-position">Project Manager</h2>
