@@ -93,7 +93,7 @@ class ourTeam extends Component {
                 </dl>
                 <div className="btn-box">
                   <button className="btn">Читать больше</button>
-                  <button className="btn">Записаться на мой урок</button>
+                  <button className="btn">Записаться на урок</button>
                 </div>
               </div>
             </div>
@@ -179,7 +179,7 @@ class ourTeam extends Component {
                 </dl>
                 <div className="btn-box">
                   <button className="btn">Читать больше</button>
-                  <button className="btn">Записаться на мой урок</button>
+                  <button className="btn">Записаться на урок</button>
                 </div>
               </div>
             </div>
@@ -252,7 +252,7 @@ class ourTeam extends Component {
                 </dl>
                 <div className="btn-box">
                   <button className="btn">Читать больше</button>
-                  <button className="btn">Записаться на мой урок</button>
+                  <button className="btn">Записаться на урок</button>
                 </div>
               </div>
             </div>
