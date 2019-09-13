@@ -150,6 +150,8 @@ class groupsPage extends Component {
               </div>
             </div>
           </div>
+
+          <div className="groups-table"></div>
         </div>
       </section>
     );
