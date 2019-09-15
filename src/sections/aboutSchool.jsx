@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import TitleSection from "../components/TitleSection.jsx";
-import imageAboutSchool from "../images/bg_main_v3.jpg";
 import Socials from "../components/Socials.jsx";
 
 var titleAboutSchool = "Про школу:";
@@ -10,9 +9,7 @@ class aboutSchool extends Component {
   render() {
     return (
       <section className="about-school-section section">
-        <div className="image">
-          <img src={imageAboutSchool} alt="" />
-        </div>
+        <div className="image"></div>
         <div className="holder">
           <div className="about-school">
             <div className="col">

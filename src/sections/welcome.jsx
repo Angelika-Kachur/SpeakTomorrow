@@ -10,9 +10,7 @@ class welcome extends Component {
         <div className="holder">
           <TitleSection title={pageTitle} />
           <div className="text">
-            <p>Текст welcome welcom welcom</p>
-            <p>Text</p>
-            <p>Text</p>
+            <p>Welcome to Speak Tomorrow</p>
           </div>
         </div>
       </section>

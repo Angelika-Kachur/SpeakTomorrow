@@ -307,6 +307,10 @@ a:hover {
   margin: 20px 0 20px;
 }
 
+.welcome-section .text {
+  text-align: center;
+}
+
 
 /* About  */
 .about .image {
@@ -320,8 +324,18 @@ a:hover {
 }
 
 /* About School */
+.about-school-section {
+  padding: 30px 0 0;
+}
+
 .about-school-section .image {
-  margin: 0 0 40px;
+  margin: 0 auto 40px;
+  text-align: center;
+  height: 500px;
+  background: url('images/bg-promo-1.jpg');
+  background-position: 50% 25%;
+  background-size: cover;
+  max-width: 3000px;
 }
 
 .about-school {
