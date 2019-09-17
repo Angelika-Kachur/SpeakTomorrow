@@ -27,6 +27,7 @@ class reviewsPage extends Component {
                 <h2 className="review-position">
                   Head of Project and Marketing Acquisition Department
                 </h2>
+                <h3 className="who-teacher">Занималась с Томой</h3>
                 <div className="review-text">
                   <p>
                     Тома — преподаватель, которого сегодня найти трудно. И мне
@@ -57,6 +58,7 @@ class reviewsPage extends Component {
                 </div>
                 <h2 className="review-name">Дима Джус</h2>
                 <h2 className="review-position">CCO at Artjoker</h2>
+                <h3 className="who-teacher">Занимался с Томой</h3>
                 <div className="review-text">
                   <p>
                     O Томе я могу сказать что я ее главный трендсеттер. Для
@@ -81,6 +83,7 @@ class reviewsPage extends Component {
                 <h2 className="review-position">
                   Head of Marketing Dream Team Studio
                 </h2>
+                <h3 className="who-teacher">Занимался с Томой</h3>
                 <div className="review-text">
                   <p>
                     Всегда видно человека, нашедшего свое призвание. Тома отдана
@@ -101,6 +104,7 @@ class reviewsPage extends Component {
                 </div>
                 <h2 className="review-name">Юля Яценко</h2>
                 <h2 className="review-position">Project Manager</h2>
+                <h3 className="who-teacher">Занималась с Дианой</h3>
                 <div className="review-text">
                   <p>
                     Занимаюсь с Дианой уже в течение 5 месяцев. До этого
