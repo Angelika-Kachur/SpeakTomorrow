@@ -532,8 +532,20 @@ a:hover {
   margin: 0 0 10px;
 }
 
+.review-name {
+  font-size: 27px;
+  margin: 0 0 7px;
+  font-weight: 700;
+}
+
 .review-position {
-  font-size: 25px;
+  font-size: 23px;
+  margin: 0 0 7px;
+}
+
+.review .who-teacher {
+  font-size: 18px;
+  font-style: italic;
   margin: 0 0 15px;
 }
 
