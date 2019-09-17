@@ -55,7 +55,7 @@ class reviewsPage extends Component {
                 <div className="review-image">
                   <img src={imageReview2} alt="" />
                 </div>
-                <h2 className="review-name">Елена Соларева</h2>
+                <h2 className="review-name">Дима Джус</h2>
                 <h2 className="review-position">CCO at Artjoker</h2>
                 <div className="review-text">
                   <p>
