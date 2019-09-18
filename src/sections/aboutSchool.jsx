@@ -9,7 +9,6 @@ class aboutSchool extends Component {
   render() {
     return (
       <section className="about-school-section section">
-        <div className="image"></div>
         <div className="holder">
           <div className="about-school">
             <div className="col">
