@@ -106,7 +106,7 @@
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  padding: 70px 0 0;
+  padding: 121px 0 0;
   overflow: hidden;
 }
 
@@ -299,17 +299,36 @@ a:hover {
 }
 
 /* Welcome  */
-.welcome-section {}
+.welcome-section {
+  padding: 0;
+}
 
-.welcome-title {
+.welcome-section .title-holder {
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.5);
+  display: inline-block;
+  border-radius: 10px;
+}
+
+.welcome-section .title {
   text-align: center;
   font-size: 40px;
-  margin: 20px 0 20px;
+  padding: 20px 0 20px;
+  color: #fff;
 }
 
-.welcome-section .text {
+.welcome-section .image {
+  margin: 0 auto 40px;
+  padding: 200px 0;
   text-align: center;
+  height: 500px;
+  background: url('images/bg-promo-1.jpg');
+  background-position: 50% 25%;
+  background-size: cover;
+  max-width: 3000px;
 }
+
+.welcome-section .text {}
 
 
 /* About  */
@@ -326,16 +345,6 @@ a:hover {
 /* About School */
 .about-school-section {
   padding: 30px 0 0;
-}
-
-.about-school-section .image {
-  margin: 0 auto 40px;
-  text-align: center;
-  height: 500px;
-  background: url('images/bg-promo-1.jpg');
-  background-position: 50% 25%;
-  background-size: cover;
-  max-width: 3000px;
 }
 
 .about-school {
