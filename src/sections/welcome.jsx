@@ -1,16 +1,17 @@
 import React, { Component } from "react";
 import TitleSection from "../components/TitleSection.jsx";
 
-var pageTitle = "Welcome!";
-
 class welcome extends Component {
   render() {
     return (
       <section className="welcome-section section">
+        <div className="image">
+          <div class="title-holder">
+            <h1 class="title">Let’s speak tomorrow!</h1>
+          </div>
+        </div>
         <div className="holder">
-          <TitleSection title={pageTitle} />
           <div className="text">
-            <p>Let’s speak tomorrow!</p>
             <p>
               Speak tomorrow это школа английского, где вас научат говорить
               уверенно.
@@ -25,7 +26,7 @@ class welcome extends Component {
               свою точку зрения. Вы будете жить на английском и считать его
               частью своей жизни.
             </p>
-            <button btn="btn btn-courses">Курсы</button>
+            <button className="btn btn-courses">Наши курсы</button>
           </div>
         </div>
       </section>
