@@ -12,6 +12,17 @@ class Navigation extends Component {
         <ul className="navigation-list">
           <li>
             <Link
+              to="groups-section"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
+              Наши курсы
+            </Link>
+          </li>
+          <li>
+            <Link
               to="about-school-section"
               spy={true}
               smooth={true}
@@ -30,17 +41,6 @@ class Navigation extends Component {
               duration={500}
             >
               Как мы работаем
-            </Link>
-          </li>
-          <li>
-            <Link
-              to="groups-section"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-            >
-              Наши курсы
             </Link>
           </li>
           <li>

@@ -15,9 +15,9 @@ class homePage extends Component {
         <Welcome />
         <AboutSchool />
         <Аdvantages />
-        <ForWho />
         <Groups />
         <OurTeam />
+        <ForWho />
         <Reviews />
         <Contacts />
       </div>
