@@ -18,7 +18,7 @@ class Navigation extends Component {
               offset={-70}
               duration={500}
             >
-              About School
+              О школе
             </Link>
           </li>
           <li>
@@ -29,7 +29,7 @@ class Navigation extends Component {
               offset={-70}
               duration={500}
             >
-              How it works
+              Как мы работаем
             </Link>
           </li>
           <li>
@@ -40,7 +40,7 @@ class Navigation extends Component {
               offset={-70}
               duration={500}
             >
-              Groups
+              Наши курсы
             </Link>
           </li>
           <li>
@@ -51,7 +51,7 @@ class Navigation extends Component {
               offset={-70}
               duration={500}
             >
-              Our Team
+              Преподаватели
             </Link>
           </li>
           <li>
@@ -62,7 +62,7 @@ class Navigation extends Component {
               offset={-70}
               duration={500}
             >
-              Reviews
+              Отзывы студентов
             </Link>
           </li>
           <li>
@@ -73,7 +73,7 @@ class Navigation extends Component {
               offset={-70}
               duration={500}
             >
-              Contacts
+              Контакты
             </Link>
           </li>
         </ul>
