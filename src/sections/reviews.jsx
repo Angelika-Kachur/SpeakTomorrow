@@ -4,6 +4,7 @@ import imageReview1 from "../images/review-1.jpg";
 import imageReview2 from "../images/review-2.jpg";
 import imageReview3 from "../images/review-3.jpg";
 import imageReview4 from "../images/review-4.jpg";
+import imageReview5 from "../images/review-5.jpg";
 
 var pageTitle = "Вот что говорят наши студенты:";
 
@@ -101,6 +102,38 @@ class reviewsPage extends Component {
               <div className="tale">
                 <div className="review-image">
                   <img src={imageReview4} alt="" />
+                </div>
+                <h2 className="review-name">Анатолий Рымарчук</h2>
+                <h2 className="review-position">Senior SEM/SEO Specialist</h2>
+                <h3 className="who-teacher">Занимался с Томой</h3>
+                <div className="review-text">
+                  <p>
+                    Считаю Тому лучшим преподавателем английского, которого мне
+                    удалось повстречать за 11 лет школы с углубленным
+                    английским, 5 лет университета и 4 года работы в
+                    международной компании.
+                  </p>
+                  <p>
+                    Мне важно было подтянуть свой английский для общения с
+                    нейтивами из Америки и Англии.
+                  </p>
+                  <p>
+                    В итоге за год обучения я подтянул язык настолько круто, что
+                    даже 11 лет в школе можно было смело променять на этот год.
+                  </p>
+                  <p>
+                    Если нужно в быстрые сроки подтянуть язык, то Тома –
+                    отличное решение. Но нужно обязательно понимать, что
+                    придётся попотеть с домашками и заучиванием новых слов и
+                    фраз, без этого, никакой преподаватель не поможет.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="review">
+              <div className="tale">
+                <div className="review-image">
+                  <img src={imageReview5} alt="" />
                 </div>
                 <h2 className="review-name">Юля Яценко</h2>
                 <h2 className="review-position">Project Manager</h2>
