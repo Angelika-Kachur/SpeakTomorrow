@@ -13,7 +13,7 @@ class welcome extends Component {
         <div className="holder">
           <div className="text">
             <p>
-              Speak tomorrow это школа английского, где вас научат говорить
+              Speak Tomorrow это школа английского, где вас научат говорить
               уверенно.
             </p>
             <p>
