@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import TitleSection from "../components/TitleSection.jsx";
 
-var pageTitle = "Мы работаем даже с теми кто:";
+var pageTitle = "С кем мы работаем:";
 
 class forWho extends Component {
   render() {
