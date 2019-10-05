@@ -151,7 +151,113 @@ class groupsPage extends Component {
             </div>
           </div>
 
-          <div className="groups-table"></div>
+          <div className="groups-table">
+          <div className="col">
+              <div className="title">
+
+              </div>
+              <div>
+                Разговорные занятия с преподавателем
+              </div>
+              <div>
+                Групповой английский чат
+              </div>
+              <div>
+                Домашки каждый день
+              </div>
+              <div>
+                Персональный вокабуляр
+              </div>
+              <div>
+                Поддержка команды
+              </div>
+            </div>
+            
+            <div className="col">
+              <div className="title">
+                Могу всё сам
+              </div>
+              <div>
+                -
+              </div>
+              <div>
+                -
+              </div>
+              <div>
+                +
+              </div>
+              <div>
+                -
+              </div>
+              <div>
+                -
+              </div>
+            </div>
+
+            <div className="col">
+              <div className="title">
+                Персональный
+              </div>
+              <div>
+                +
+              </div>
+              <div>
+                -
+              </div>
+              <div>
+                -
+              </div>
+              <div>
+                +
+              </div>
+              <div>
+                -
+              </div>
+            </div>
+
+            <div className="col">
+              <div className="title">
+                Команда
+              </div>
+              <div>
+                +
+              </div>
+              <div>
+                +
+              </div>
+              <div>
+                -
+              </div>
+              <div>
+                +
+              </div>
+              <div>
+                +
+              </div>
+            </div>
+
+            <div className="col">
+              <div className="title">
+                Корпоративное обучение
+              </div>
+              <div>
+                +
+              </div>
+              <div>
+                +
+              </div>
+              <div>
+                -
+              </div>
+              <div>
+                +
+              </div>
+              <div>
+                +
+              </div>
+            </div>
+
+          </div>
         </div>
       </section>
     );
