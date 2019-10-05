@@ -396,6 +396,18 @@ a:hover {
 }
 
 /* Groups */
+.groups-table {
+  
+}
+
+.groups-table .yes{
+  color: greenyellow;
+}
+
+.groups-table .no{
+  color: maroon;
+}
+
 .groups {
   display: flex;
   flex-wrap: wrap;

@@ -177,19 +177,19 @@ class groupsPage extends Component {
               <div className="title">
                 Могу всё сам
               </div>
-              <div>
+              <div class="no">
                 -
               </div>
-              <div>
+              <div class="no">
                 -
               </div>
-              <div>
+              <div class="yes">
                 +
               </div>
-              <div>
+              <div class="no">
                 -
               </div>
-              <div>
+              <div class="no">
                 -
               </div>
             </div>
@@ -198,19 +198,19 @@ class groupsPage extends Component {
               <div className="title">
                 Персональный
               </div>
-              <div>
+              <div class="yes">
                 +
               </div>
-              <div>
+              <div class="no">
                 -
               </div>
-              <div>
+              <div class="no">
                 -
               </div>
-              <div>
+              <div class="yes">
                 +
               </div>
-              <div>
+              <div class="no">
                 -
               </div>
             </div>
@@ -219,19 +219,19 @@ class groupsPage extends Component {
               <div className="title">
                 Команда
               </div>
-              <div>
+              <div class="yes">
                 +
               </div>
-              <div>
+              <div class="yes">
                 +
               </div>
-              <div>
+              <div class="no">
                 -
               </div>
-              <div>
+              <div class="yes">
                 +
               </div>
-              <div>
+              <div class="yes">
                 +
               </div>
             </div>
@@ -240,19 +240,19 @@ class groupsPage extends Component {
               <div className="title">
                 Корпоративное обучение
               </div>
-              <div>
+              <div class="yes">
                 +
               </div>
-              <div>
+              <div class="yes">
                 +
               </div>
-              <div>
+              <div class="no">
                 -
               </div>
-              <div>
+              <div class="yes">
                 +
               </div>
-              <div>
+              <div class="yes">
                 +
               </div>
             </div>
