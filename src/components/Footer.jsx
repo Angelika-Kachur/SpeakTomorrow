@@ -8,11 +8,7 @@ class Footer extends Component {
         <div className="holder">
           <Socials />
           <div className="copyright">
-            © 2019 Speak Tomorrow. All Rights Reserved. Website design by{" "}
-            <a href="#" target="_blank">
-              Z
-            </a>
-            .
+            © 2019 Speak Tomorrow. All Rights Reserved.
           </div>
         </div>
       </footer>
