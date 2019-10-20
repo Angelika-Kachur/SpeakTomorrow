@@ -10,34 +10,28 @@ class contactsPage extends Component {
       <section
         id="contacts"
         className="contacts-section section"
-        data-aos="fade-right"
-      >
+        data-aos="fade-up">
         <TitleSection title={pageTitle} />
         <div className="holder">
-          <div className="text">
-            <h2 className="title">У вас есть вопрос?</h2>
-            <p>С нами ты можешь выучить английской с любого уголка Земли</p>
-          </div>
-
           <form className="contacts-form" action="#">
             <label>
               Name:
-              <input type="text" name="name" />
+              <input className="input" type="text" name="name" />
             </label>
             <label>
               Phone:
-              <input type="tel" name="name" />
+              <input  className="input" type="tel" name="name" />
             </label>
             <label>
               Email:
-              <input type="email" name="name" />
+              <input  className="input" type="email" name="name" />
             </label>
             <label>
               Message:
               <textarea>Hello there, this is some text in a text area</textarea>
             </label>
 
-            <input type="submit" value="Submit" />
+            <input type="submit" className="btn" value="Submit" />
           </form>
         </div>
         {/* <Map /> */}
