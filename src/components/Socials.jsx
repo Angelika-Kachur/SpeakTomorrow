@@ -13,7 +13,7 @@ class Socials extends Component {
         </li>
         <li>
           <a
-            href="#facebook"
+            href="https://www.facebook.com/tachilina"
             target="_blank"
             className="icon-social-facebook"
           />
