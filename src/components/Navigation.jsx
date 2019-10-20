@@ -23,13 +23,13 @@ class Navigation extends Component {
           </li>
           <li>
             <Link
-              to="about-school-section"
+              to="our-team-section"
               spy={true}
               smooth={true}
               offset={-70}
               duration={500}
             >
-              О школе
+              Преподаватели
             </Link>
           </li>
           <li>
@@ -41,17 +41,6 @@ class Navigation extends Component {
               duration={500}
             >
               Как мы работаем
-            </Link>
-          </li>
-          <li>
-            <Link
-              to="our-team-section"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-            >
-              Преподаватели
             </Link>
           </li>
           <li>
