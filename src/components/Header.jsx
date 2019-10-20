@@ -9,7 +9,7 @@ class Header extends Component {
         <div className="holder">
           <Logo />
           <Navigation />
-          <button className="btn btn-ask-question">Задать вопрос</button>
+          <a className="btn btn-ask-question" target="_blank" href="https://www.facebook.com/tachilina">Записаться</a>
         </div>
       </header>
     );
