@@ -46,7 +46,7 @@ class groupsPage extends Component {
                   <a href="#">Материалы</a>
                 </div>
                 <div className="group-btn">
-                  <button className="btn">Записаться</button>
+                <a className="btn" target="_blank" href="https://www.facebook.com/tachilina">Записаться</a>
                 </div>
               </div>
             </div>
@@ -76,7 +76,7 @@ class groupsPage extends Component {
                   <a href="#">Материалы</a>
                 </div>
                 <div className="group-btn">
-                  <button className="btn">Записаться</button>
+                <a className="btn" target="_blank" href="https://www.facebook.com/tachilina">Записаться</a>
                 </div>
               </div>
             </div>
@@ -112,7 +112,7 @@ class groupsPage extends Component {
                   <a href="#">Материалы</a>
                 </div>
                 <div className="group-btn">
-                  <button className="btn">Записаться</button>
+                <a className="btn" target="_blank" href="https://www.facebook.com/tachilina">Записаться</a>
                 </div>
               </div>
             </div>
@@ -145,14 +145,14 @@ class groupsPage extends Component {
                   <a href="#">Материалы</a>
                 </div>
                 <div className="group-btn">
-                  <button className="btn">Записаться</button>
+                  <a className="btn" target="_blank" href="https://www.facebook.com/tachilina">Записаться</a>
                 </div>
               </div>
             </div>
           </div>
 
-          <div className="groups-table">
-          <div className="col">
+          {/*<div className="groups-table">
+            <div className="col">
               <div className="title">
 
               </div>
@@ -256,8 +256,8 @@ class groupsPage extends Component {
                 +
               </div>
             </div>
+          </div>*/}
 
-          </div>
         </div>
       </section>
     );
