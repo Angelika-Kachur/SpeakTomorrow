@@ -5,6 +5,7 @@ import imageReview2 from "../images/review-2.jpg";
 import imageReview3 from "../images/review-3.jpg";
 import imageReview4 from "../images/review-4.jpg";
 import imageReview5 from "../images/review-5.jpg";
+import imageReview6 from "../images/review-6.jpg";
 
 var pageTitle = "Вот что говорят наши студенты:";
 
@@ -19,7 +20,7 @@ class reviewsPage extends Component {
         <div className="holder">
           <TitleSection title={pageTitle} />
           <div className="reviews">
-            <div className="review">
+            <div className="review" data-aos="fade-right">
               <div className="tale">
                 <div className="review-image">
                   <img src={imageReview1} alt="" />
@@ -52,7 +53,7 @@ class reviewsPage extends Component {
                 </div>
               </div>
             </div>
-            <div className="review">
+            <div className="review" data-aos="fade-left">
               <div className="tale">
                 <div className="review-image">
                   <img src={imageReview2} alt="" />
@@ -75,7 +76,7 @@ class reviewsPage extends Component {
                 </div>
               </div>
             </div>
-            <div className="review">
+            <div className="review" data-aos="fade-right">
               <div className="tale">
                 <div className="review-image">
                   <img src={imageReview3} alt="" />
@@ -98,7 +99,7 @@ class reviewsPage extends Component {
                 </div>
               </div>
             </div>
-            <div className="review">
+            <div className="review" data-aos="fade-left">
               <div className="tale">
                 <div className="review-image">
                   <img src={imageReview4} alt="" />
@@ -130,7 +131,34 @@ class reviewsPage extends Component {
                 </div>
               </div>
             </div>
-            <div className="review">
+            <div className="review" data-aos="fade-right">
+              <div className="tale">
+                <div className="review-image">
+                  <img src={imageReview6} alt="" />
+                </div>
+                <h2 className="review-name">Artem</h2>
+                <h2 className="review-position">Software Engineer</h2>
+                <h3 className="who-teacher">Занимался с Дианой</h3>
+                <div className="review-text">
+                  <p>
+                    Me and Diana started our lessons almost half a year ago. 
+                  </p>
+                  <p>
+                    And since then, every single lesson is just a kind of interactive dialog, opposite to tedious and exhausting routine I experienced previously with a bunch of other tutors.
+                  </p>
+                  <p>
+                    I guess it’s just a god bless (or talent) - to be so amiable and charming like she is.
+                  </p>
+                  <p>
+                    One of the most valuable key things for me personally - very agile and frequently changing tempo of lessons plus personalized activities like watching TV series together or discussing hobbies - traveling, books and lifestyle. But don’t think that you can avoid hard work.
+                  </p>
+                  <p>
+                    Learning is a deliberate and long-term way, and such an experienced tutor can help you to open new ingenious and exciting paths.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="review" data-aos="fade-left">
               <div className="tale">
                 <div className="review-image">
                   <img src={imageReview5} alt="" />
