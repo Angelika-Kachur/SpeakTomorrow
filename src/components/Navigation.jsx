@@ -66,6 +66,7 @@ class Navigation extends Component {
             </Link>
           </li>
         </ul>
+        <a className="btn btn-ask-question" target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/tachilina">Записаться</a>
       </nav>
     );
   }

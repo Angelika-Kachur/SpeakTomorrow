@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Logo from "./Logo";
+import BurgerMenu from "./BurgerMenu";
 import Navigation from "./Navigation";
 
 class Header extends Component {
@@ -8,8 +9,8 @@ class Header extends Component {
       <header className="header">
         <div className="holder">
           <Logo />
+          <BurgerMenu />
           <Navigation />
-          <a className="btn btn-ask-question" target="_blank" href="https://www.facebook.com/tachilina">Записаться</a>
         </div>
       </header>
     );

@@ -42,11 +42,11 @@ class groupsPage extends Component {
                   <div className="start-level">От Intermediate</div>
                 </div>
                 <div className="group-links">
-                  <a href="#">Навыки</a>
-                  <a href="#">Материалы</a>
+                  <a href="http://www.speaktomorrow.com.ua/">Навыки</a>
+                  <a href="http://www.speaktomorrow.com.ua/">Материалы</a>
                 </div>
                 <div className="group-btn">
-                <a className="btn" target="_blank" href="https://www.facebook.com/tachilina">Записаться</a>
+                <a className="btn" target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/tachilina">Записаться</a>
                 </div>
               </div>
             </div>
@@ -72,11 +72,11 @@ class groupsPage extends Component {
                   <div className="start-level">От Elementary</div>
                 </div>
                 <div className="group-links">
-                  <a href="#">Навыки</a>
-                  <a href="#">Материалы</a>
+                  <a href="http://www.speaktomorrow.com.ua/">Навыки</a>
+                  <a href="http://www.speaktomorrow.com.ua/">Материалы</a>
                 </div>
                 <div className="group-btn">
-                <a className="btn" target="_blank" href="https://www.facebook.com/tachilina">Записаться</a>
+                <a className="btn" target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/tachilina">Записаться</a>
                 </div>
               </div>
             </div>
@@ -108,11 +108,11 @@ class groupsPage extends Component {
                   <div className="start-level">От Elementary</div>
                 </div>
                 <div className="group-links">
-                  <a href="#">Навыки</a>
-                  <a href="#">Материалы</a>
+                  <a href="http://www.speaktomorrow.com.ua/">Навыки</a>
+                  <a href="http://www.speaktomorrow.com.ua/">Материалы</a>
                 </div>
                 <div className="group-btn">
-                <a className="btn" target="_blank" href="https://www.facebook.com/tachilina">Записаться</a>
+                <a className="btn" target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/tachilina">Записаться</a>
                 </div>
               </div>
             </div>
@@ -141,123 +141,15 @@ class groupsPage extends Component {
                   <div className="start-level">От Elementary</div>
                 </div>
                 <div className="group-links">
-                  <a href="#">Навыки</a>
-                  <a href="#">Материалы</a>
+                  <a href="http://www.speaktomorrow.com.ua/">Навыки</a>
+                  <a href="http://www.speaktomorrow.com.ua/">Материалы</a>
                 </div>
                 <div className="group-btn">
-                  <a className="btn" target="_blank" href="https://www.facebook.com/tachilina">Записаться</a>
+                  <a className="btn" target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/tachilina">Записаться</a>
                 </div>
               </div>
             </div>
           </div>
-
-          {/*<div className="groups-table">
-            <div className="col">
-              <div className="title">
-
-              </div>
-              <div>
-                Разговорные занятия с преподавателем
-              </div>
-              <div>
-                Групповой английский чат
-              </div>
-              <div>
-                Домашки каждый день
-              </div>
-              <div>
-                Персональный вокабуляр
-              </div>
-              <div>
-                Поддержка команды
-              </div>
-            </div>
-            
-            <div className="col">
-              <div className="title">
-                Могу всё сам
-              </div>
-              <div class="no">
-                -
-              </div>
-              <div class="no">
-                -
-              </div>
-              <div class="yes">
-                +
-              </div>
-              <div class="no">
-                -
-              </div>
-              <div class="no">
-                -
-              </div>
-            </div>
-
-            <div className="col">
-              <div className="title">
-                Персональный
-              </div>
-              <div class="yes">
-                +
-              </div>
-              <div class="no">
-                -
-              </div>
-              <div class="no">
-                -
-              </div>
-              <div class="yes">
-                +
-              </div>
-              <div class="no">
-                -
-              </div>
-            </div>
-
-            <div className="col">
-              <div className="title">
-                Команда
-              </div>
-              <div class="yes">
-                +
-              </div>
-              <div class="yes">
-                +
-              </div>
-              <div class="no">
-                -
-              </div>
-              <div class="yes">
-                +
-              </div>
-              <div class="yes">
-                +
-              </div>
-            </div>
-
-            <div className="col">
-              <div className="title">
-                Корпоративное обучение
-              </div>
-              <div class="yes">
-                +
-              </div>
-              <div class="yes">
-                +
-              </div>
-              <div class="no">
-                -
-              </div>
-              <div class="yes">
-                +
-              </div>
-              <div class="yes">
-                +
-              </div>
-            </div>
-          </div>*/}
-
         </div>
       </section>
     );

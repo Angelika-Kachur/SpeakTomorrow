@@ -1,273 +1,173 @@
-import React, { useState } from "react";
+import React, { Component } from "react";
 import TitleSection from "../components/TitleSection.jsx";
-import Socials from "../components/Socials.jsx";
 import teacherToma from "../images/teacher-toma.png";
 import teacherDiana from "../images/teacher-diana.jpg";
 import teacherTanya from "../images/teacher-tanya.jpg";
+import Popup from '../components/Popup';
 
 var pageTitle = "Наши преподаватели";
 
-function ourTeam() {
 
-  const [showTextToma, setShowTextToma] = useState(false);
-  const [showTextDiana, setShowTextDiana] = useState(false);
-  const [showTextTanya, setShowTextTanya] = useState(false);
-  
-  return (
-    <section className="our-team-section section" data-aos="fade-left">
-      <TitleSection title={pageTitle} />
-      <div className="holder">
-      
+class ourTeam extends Component {
 
-        <div className="our-team">
-          <div className="team-card">
-            <div className="image">
-              <img src={teacherToma} alt="" />
-            </div>
-            <div className="text">
-              <div className="name">Toma (Tomorrow) Tachilina</div>
-              <div className="about-teacher">
-                <div className="short-text">
-                  <p>
-                    Меня зовут Тома, я преподаю английский и русский для
-                    иностранцев. Работала на курсах, в IT компаниях, с детьми
-                    и взрослыми.
-                  </p>
-                  <p>
-                    В данный момент курс по Business English. Организовываю
-                    онлайн челенджи в Instagram. Работала в США, училась в
-                    Испании и Нидерландах в летнем университете. Была VIP
-                    волонтером во время Euro 2012
-                  </p>
-                </div>
+  constructor(props){
+    super(props);
+    this.state = { showPopup: false };
+  }
 
-                {showTextToma && 
-                  <div data-aos="zoom-in">
+  togglePopup() {
+    this.setState({
+      showPopup: !this.state.showPopup
+    });
+  }
+
+  render() {
+    return (
+
+      <section className="our-team-section section" data-aos="fade-left">
+        <TitleSection title={pageTitle} />
+        <div className="holder">
+
+        {this.state.showPopup ?
+        <Popup
+        text='Click "Close Button" to hide popup'
+        closePopup={this.togglePopup.bind(this)}
+        />
+          : null
+        }
+        
+
+          <div className="our-team">
+            <div className="team-card">
+              <div className="image">
+                <img src={teacherToma} alt="" />
+              </div>
+              <div className="text">
+                <div className="name">Toma (Tomorrow) Tachilina</div>
+                <div className="about-teacher">
+                  <div className="short-text">
                     <p>
-                      Я преподаю английский больше 10 лет. С
-                      самого детства я знала, чем хочу заниматься в будущем,
-                      когда вырасту. Я осознанно пошла в педагогический
-                      университет, чтоб стать классным преподавателем
-                      английского и помогать людям влюбляться в этот язык, как
-                      это случилось со мной.
+                      Меня зовут Тома, я преподаю английский и русский для
+                      иностранцев. Работала на курсах, в IT компаниях, с детьми
+                      и взрослыми.
                     </p>
                     <p>
-                      На 4м курсе иняза я поехала в штаты по программе обмена
-                      студентов. И вот казалось бы, я всегда знала английский
-                      хорошо, но когда попала в США, я поняла, что совсем не
-                      умею разговаривать. Я могла ответить на любой вопрос
-                      письменно, а открыть рот и начать общаться – не могла.
-                      Немело во рту, слова терялись, я чувствовала себя
-                      растерянной. И тут я поняла главную ошибку нашей системы
-                      образования – нас не учили говорить. Поэтому я тогда
-                      решила, что главной задачей для себя я выберу именно
-                      говорение (Speaking). Я хотела, чтоб мои студенты умели
-                      сразу пользоваться языком и не бояться совершить ошибку
-                      каждую секунду
+                      В данный момент курс по Business English. Организовываю
+                      онлайн челенджи в Instagram. Работала в США, училась в
+                      Испании и Нидерландах в летнем университете. Была VIP
+                      волонтером во время Euro 2012
                     </p>
-                    <p>
-                      Я работала на курсах иностранных языков и в IT компаниях
-                      на протяжении 9 лет. В 2018 году я получила международный
-                      диплом преподавателя английского языка в Лондоне (TEFL).
-                      Этому диплому я радовалась в 100 раз больше, чем
-                      универскому. Теперь я чувствую, что наконец стала тем, кем
-                      хотела стать.
-                    </p>
-                    <p>
-                      Однажды мне пришла идея открыть свою онлайн школу изучения
-                      английского языка, где главное внимание уделялось бы
-                      именно Speaking, а обучение было бы онлайн, чтоб обучение
-                      было комфортным, современным и студенты со всего мира
-                      смогли учить английский.
-                    </p>
-                    <Socials />
                   </div>
-                }
-              </div>
-              <dl className="detailed-info">
-                <dt>Опыт работы:</dt>
-                <dd>15 лет</dd>
-                <dt>Сертификаты:</dt>
-                <dd>
-                  <ul className="certificates">
-                    <li>Получила TEFL (TESOL) сертификат в 2018 (Лондон)</li>
-                    <li>
-                      Степень магистра по английскому языку (ХНПУ им.
-                      Сковороды)
-                    </li>
-                    <li>Закончила 2х месячный курс по Public Speaking </li>
-                  </ul>
-                </dd>
-              </dl>
-              <div className="btn-box">
-                <button className="btn" onClick={() => setShowTextToma(!showTextToma)}>Читать больше</button>
-              </div>
-            </div>
-          </div>
 
-          <div className="team-card">
-            <div className="image">
-              <img src={teacherDiana} alt="" />
-            </div>
-            <div className="text">
-              <div className="name">Diana (Di) Teacher</div>
-              <div className="about-teacher">
-                <div className="short-text">
-                  <p>
-                    Привет, меня зовут Диана. Я – преподаватель английского
-                    языка. Веду индивидуальные и групповые уроки онлайн.
-                  </p>
-                  <p>
-                    Работала на курсах английского и IT компаниях. Еще имею
-                    опыт преподавания английского для юристов.
-                  </p>
                 </div>
-                
-                {showTextDiana && 
-                  <div data-aos="zoom-in">
+                <dl className="detailed-info">
+                  <dt>Опыт работы:</dt>
+                  <dd>15 лет</dd>
+                  <dt>Сертификаты:</dt>
+                  <dd>
+                    <ul className="certificates">
+                      <li>Получила TEFL (TESOL) сертификат в 2018 (Лондон)</li>
+                      <li>
+                        Степень магистра по английскому языку (ХНПУ им.
+                        Сковороды)
+                      </li>
+                      <li>Закончила 2х месячный курс по Public Speaking </li>
+                    </ul>
+                  </dd>
+                </dl>
+                <div className="btn-box">
+                  <button className="btn" onClick={this.togglePopup.bind(this)}>Читать больше</button>
+                </div>
+              </div>
+            </div>
+
+            <div className="team-card">
+              <div className="image">
+                <img src={teacherDiana} alt="" />
+              </div>
+              <div className="text">
+                <div className="name">Diana (Di) Teacher</div>
+                <div className="about-teacher">
+                  <div className="short-text">
                     <p>
-                      Я преподаватель английского с 8-летней практикой. С 2014 года веду
-                      индивидуальные и групповые уроки по Skype.
+                      Привет, меня зовут Диана. Я – преподаватель английского
+                      языка. Веду индивидуальные и групповые уроки онлайн.
                     </p>
                     <p>
-                      Английский – моя страсть, мое хобби, мой инструмент. Оно и
-                      не удивительно – выросла я в семье преподавателя
-                      английского и немецкого языков. С раннего детства мне
-                      нравилось стоять возле доски и рассказывать то, что знаю,
-                      делиться информацией. Родители разглядели во мне будущего
-                      преподавателя и направили на «преподавательский путь».
+                      Работала на курсах английского и IT компаниях. Еще имею
+                      опыт преподавания английского для юристов.
                     </p>
-                    <p>
-                      Я получила диплом преподавателя английского и французского
-                      языка. Выбор университета делала осознанно, так как знала,
-                      что после окончания обязательно буду преподавать. С 2011
-                      года работала на курсах английского, а с 2014 в IT
-                      компаниях Еще имею опыт преподавания английского для
-                      юристов.. Когда я начала преподавать, я поняла, что
-                      английский – это живое существо, которое нужно любить, как
-                      в ребенка, вкладывать свои силы и любовь. Тогда он ответит
-                      взаимностью.
-                    </p>
-                    <div className="why">
-                      <h3 class="title">Почему я преподаю?</h3>
-                      <p>
-                        У меня есть знания, которыми хочу и могу поделиться. И
-                        это не просто знание слов, грамматики, правил чтения и
-                        письма, а, во-первых, умение к каждому ученику найти
-                        соответствующий метод преподавания, «подобрать ключик»,
-                        с помощью которого для него/нее откроется увлекательный
-                        мир английского языка. Во-вторых, желание заразить
-                        любовью к инглишу, научить самостоятельно и постоянно
-                        обучаться. В свою очередь, преподавая, каждый раз
-                        открываю для себя что-нибудь новое, учусь новым методам
-                        и технологиям.
-                      </p>
-                    </div>
                   </div>
-                }
-              </div>
-              <dl className="detailed-info">
-                <dt>Опыт работы:</dt>
-                <dd>8 лет</dd>
-                <dt>Сертификаты:</dt>
-                <dd>
-                  <ul className="certificates">
-                    <li>
-                      Преподаватель английского языка ХНПУ имени Г.С.Сковороды
-                    </li>
-                    <li>
-                      5-недельный курс «Advanced Instructional strategies in
-                      the Virtual Classroom».
-                    </li>
-                    <li>
-                      Имею сертификат Калифорнийского университета в Ирвине.
-                    </li>
-                  </ul>
-                </dd>
-              </dl>
-              <div className="btn-box">
-                <button className="btn" onClick={() => setShowTextDiana(!showTextDiana)}>Читать больше</button>
-              </div>
-            </div>
-          </div>
-
-          <div className="team-card">
-            <div className="image">
-              <img src={teacherTanya} alt="" />
-            </div>
-            <div className="text">
-              <div className="name">Tanya Teacher</div>
-              <div className="about-teacher">
-                <div className="short-text">
-                  <p>
-                    Привет, меня зовут Таня. Я преподаю английский язык в
-                    группах и индивидуально, по скайпу и тет-а-тет. Веду
-                    занятия в IT компаниях.
-                  </p>
-                </div>
+                  
                 
-                {showTextTanya && 
-                  <div data-aos="zoom-in">
-                    <p>
-                      Я окончила Харьковский национальный педагогический
-                      университет им Г. С Сковороды, специальность
-                      «преподаватель английского, французского языков и
-                      зарубежной литературы».
-                    </p>
-                    <p>
-                      Самое главное это то, что я люблю общаться с людьми,
-                      делиться своими знаниями, доступно объяснять
-                      грамматические правила, помогать преодолевать языковой
-                      барьер.
-                    </p>
-                    <p>
-                      Я думаю, что лучшие черты преподавателя это —
-                      профессионализм и правильное отношение к студенту. Нужно
-                      быть учителем и другом, всегда поддерживать приятную
-                      атмосферу во время урока.
-                    </p>
-                    <p>
-                      Я просто обожаю видеть прогресс студента и осознавать, что
-                      это и моя заслуга тоже. Стараюсь найти индивидуальный
-                      подход к каждому ученику уже на протяжении 8 лет.
-                    </p>
-                    <p>
-                      Своим ученикам я хочу пожелать, чтобы они не боялись
-                      чего-то нового, в том числе и изучения иностранного языка.
-                    </p>
-                    <p>
-                      Конечно, будут трудности, но результат того стоит, ведь
-                      владение языком не только позволяет комфортно общаться с
-                      его носителями, но и открывает для человека абсолютно
-                      новый мир.
-                    </p>
-                 </div>
-                }
+                </div>
+                <dl className="detailed-info">
+                  <dt>Опыт работы:</dt>
+                  <dd>8 лет</dd>
+                  <dt>Сертификаты:</dt>
+                  <dd>
+                    <ul className="certificates">
+                      <li>
+                        Преподаватель английского языка ХНПУ имени Г.С.Сковороды
+                      </li>
+                      <li>
+                        5-недельный курс «Advanced Instructional strategies in
+                        the Virtual Classroom».
+                      </li>
+                      <li>
+                        Имею сертификат Калифорнийского университета в Ирвине.
+                      </li>
+                    </ul>
+                  </dd>
+                </dl>
+                <div className="btn-box">
+                  <button className="btn" onClick={this.togglePopup.bind(this)}>Читать больше</button>
+                </div>
               </div>
-              <dl className="detailed-info">
-                <dt>Опыт работы:</dt>
-                <dd>8 лет</dd>
-                <dt>Сертификаты:</dt>
-                <dd>
-                  <ul className="certificates">
-                    <li>IELTS academic 2019</li>
-                    <li>TEFL 2019</li>
-                    <li>
-                      Диплом преподавателя английского и французского языков
-                      ХНПУ им. Сковороды.
-                    </li>
-                  </ul>
-                </dd>
-              </dl>
-              <div className="btn-box">
-                <button className="btn" onClick={() => setShowTextTanya(!showTextTanya)}>Читать больше</button>
+            </div>
+
+            <div className="team-card">
+              <div className="image">
+                <img src={teacherTanya} alt="" />
+              </div>
+              <div className="text">
+                <div className="name">Tanya Teacher</div>
+                <div className="about-teacher">
+                  <div className="short-text">
+                    <p>
+                      Привет, меня зовут Таня. Я преподаю английский язык в
+                      группах и индивидуально, по скайпу и тет-а-тет. Веду
+                      занятия в IT компаниях.
+                    </p>
+                  </div>
+                  
+                
+                </div>
+                <dl className="detailed-info">
+                  <dt>Опыт работы:</dt>
+                  <dd>8 лет</dd>
+                  <dt>Сертификаты:</dt>
+                  <dd>
+                    <ul className="certificates">
+                      <li>IELTS academic 2019</li>
+                      <li>TEFL 2019</li>
+                      <li>
+                        Диплом преподавателя английского и французского языков
+                        ХНПУ им. Сковороды.
+                      </li>
+                    </ul>
+                  </dd>
+                </dl>
+                <div className="btn-box">
+                  <button className="btn" onClick={this.togglePopup.bind(this)}>Читать больше</button>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-  );
+      </section>
+    );
+  }
 }
 
 export default ourTeam;

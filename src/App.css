@@ -176,6 +176,15 @@ a:hover {
 }
 
 /* Navigation  */
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
+.navigation .btn-ask-question {
+  margin: 0 0 0 20px;
+}
+
 .navigation-list {
   display: flex;
   list-style: none;
@@ -184,7 +193,7 @@ a:hover {
 }
 
 .navigation-list li {
-  margin: 0 20px;
+  margin: 0 15px;
 }
 
 .navigation-list a {
@@ -211,6 +220,80 @@ a:hover {
   width: 100%;
 }
 
+/* Burger Menu */
+.burger-menu {
+  position: relative;
+  display: inline-block;
+  width: 35px;
+  height: 26px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 17px;
+  display: none;
+}
+
+.burger-menu:focus {
+    outline: none;
+}
+
+.burger-menu__line,
+.burger-menu__line:after,
+.burger-menu__line:before {
+  transition: transform ease 0.15s;
+  position: absolute;
+  width: 35px;
+  height: 4px;
+  border-radius: 4px;
+  background-color: #000;
+}
+
+.burger-menu__line {
+  position: absolute;
+  width: 35px;
+  height: 4px;
+  border-radius: 4px;
+  top: 50%;
+  left: 0;
+  display: block;
+  margin-top: -2px;
+  transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  transition-duration: 75ms;
+}
+
+.burger-menu__line:after,
+.burger-menu__line:before {
+  display: block;
+  content: '';
+}
+
+.burger-menu__line:before {
+  top: -10px;
+  transition: top 75ms ease 0.12s, opacity 75ms ease;
+}
+
+.burger-menu__line:after {
+  bottom: -10px;
+  transition: bottom 200ms ease 0.2s,
+  transform 75ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+.burger-menu--true .burger-menu__line {
+  transition-delay: 0.2s;
+  transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  transform: rotate(45deg);
+}
+.burger-menu--true .burger-menu__line:before {
+  top: 0;
+  transition: top 75ms ease, opacity 75ms ease 0.12s;
+  opacity: 0;
+}
+.burger-menu--true .burger-menu__line:after {
+  bottom: 0;
+  transition: bottom 75ms ease,
+    transform 75ms cubic-bezier(0.215, 0.61, 0.355, 1) 0.12s;
+  transform: rotate(-90deg);
+}
+
 /* Page Content  */
 .page-content {
   flex: 1;
@@ -218,16 +301,16 @@ a:hover {
 
 /* Title Section  */
 .title-section {
-  padding: 30px 0;
+  padding: 0 0 30px;
   background: linear-gradient(-225deg, #ff3cac 0%, #562b7c 52%, #2b86c5 100%);
   background: #fff;
   opacity: 0.95;
 }
 
 .title-section .title {
-  color: #fff;
   color: #000;
   text-align: center;
+  font-size: 40px;
 }
 
 /* Section */
@@ -256,6 +339,13 @@ a:hover {
   transition: all 200ms ease-in;
   transform: scale(1);
   border-radius: 50px;
+}
+
+.socials li span {
+  display: block;
+  text-indent: -9999px;
+  height: 0;
+  overflow: hidden;
 }
 
 .socials li a:hover {
@@ -318,7 +408,7 @@ a:hover {
 }
 
 .welcome-section .image {
-  margin: 0 auto 40px;
+  margin: 0 auto;
   padding: 200px 0;
   text-align: center;
   height: 500px;
@@ -383,7 +473,7 @@ a:hover {
   height: 45px;
   margin: 5px 0 20px;
   padding: 10px;
-  border: 1px solid #4371b2;
+  border: 1px solid #b9b9b9;
   border-radius: 5px;
   transition: all ease 0.3s;
   color: #2b2b2b;
@@ -391,13 +481,14 @@ a:hover {
 
 .contacts-form .input:focus,
 .contacts-form textarea:focus {
-  border-color: #d142a4;
+  border-color: #00abd2;
   outline: none;
 }
 
 .contacts-form textarea {
   resize: none;
   height: 100px;
+  color: grey;
 }
 
 .contacts-form .btn {
@@ -408,19 +499,6 @@ a:hover {
 /* Advantages */
 .advantages {
   display: flex;
-}
-
-/* Groups */
-.groups-table {
-  
-}
-
-.groups-table .yes{
-  color: greenyellow;
-}
-
-.groups-table .no{
-  color: maroon;
 }
 
 .groups {
@@ -588,8 +666,7 @@ a:hover {
 /* Buttons */
 .btn {
   color: #fff;
-  background: #00abd2;
-  border: solid 1px #00abd2;
+  background: #52c2da;
   transition: all ease 0.3s;
 }
 
@@ -599,11 +676,40 @@ a:hover {
 }
 
 .btn:hover {
-  background: #fff;
+  background: #00abd2;
+  color: #fff;
+}
+
+/* Popup */
+.popup {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  background-color: rgba(0,0,0, 0.5);
+  z-index: 100;
+}
+.popup_inner {
+  position: absolute;
+  left: 25%;
+  right: 25%;
+  top: 25%;
+  bottom: 25%;
+  margin: auto;
+  border-radius: 20px;
+  background: white;
 }
 
 /* Media 1100  */
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1200px) {
+
+  .title-section .title {
+    font-size: 34px;
+  }
 
   /* Groups  */
   .groups {
@@ -619,10 +725,15 @@ a:hover {
   .group-text {
     max-height: 100%;
   }
+
+  .navigation-list li {
+    margin: 0 10px;
+  }
 }
 
 /* Media 1024  */
 @media screen and (max-width: 1024px) {
+
   .group-title {
     font-size: 20px;
   }
@@ -634,10 +745,64 @@ a:hover {
   .about-school .col {
     width: 100%;
   }
+
+  .App {
+    padding: 55px 0 0;
+  }
+
+  .header {
+    position: fixed;
+  }
+
+  .logo-image {
+    max-width: 46px;
+    height: auto;
+  }
+
+  .burger-menu {
+    display: block;
+  }
+
+  .navigation {
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: #fff;
+    text-align: center;
+    box-shadow: 0 2px 4px -3px grey;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height ease-in-out 0.4s;
+    z-index: 10;
+  }
+
+  .burger-menu--true + .navigation {
+    max-height: 900px;
+  }
+
+  .navigation-list {
+    display: block;
+    margin: 0 0 10px;
+  }
+
+  .navigation-list li {
+    padding: 10px 0;
+    margin: 0 0 1px;
+  }
+
+  .navigation .btn-ask-question {
+    margin: 0 0 30px 10px;
+  }
 }
 
 /* Media 768  */
 @media screen and (max-width: 768px) {
+
+  .section {
+    padding: 20px 0;
+  }
 
   /* Socials  */
   .socials li {
@@ -674,6 +839,29 @@ a:hover {
     float: left;
   }
 
+  /* Advantages */
+  .advantages {
+    display: block;
+  }
+
+  .advantages .list {
+    padding: 0 0 0 15px;
+  }
+
+  /* Review */
+  .review:last-child {
+    margin: 0;
+  }
+
+  .review-name {
+    text-align: center;
+    margin: 0 0 15px;
+  }
+
+  .review-image {
+    margin: 0 auto 20px;
+  }
+
   /* Footer */
   .footer .holder {
     flex-direction: column;
@@ -690,9 +878,17 @@ a:hover {
   }
 }
 
-
-/* Media 600  */
+/* Media 600 */
 @media screen and (max-width: 600px) {
+
+  .welcome-section .title {
+    font-size: 30px;
+  }
+
+  .title-section .title {
+    font-size: 24px;
+  }
+
   /* Team */
   .team-card {
     display: block;
@@ -708,7 +904,7 @@ a:hover {
   }
 }
 
-/* Media 768  */
+/* Media 768 */
 @media screen and (max-width: 500px) {
 
   /* About */
